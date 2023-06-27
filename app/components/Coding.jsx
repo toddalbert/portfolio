@@ -1,11 +1,3 @@
-const logos = [
-  { logo: 'html5', name: 'HTML5' },
-  { logo: 'html5', name: 'HTML5' },
-  { logo: 'html5', name: 'HTML5' },
-  { logo: 'html5', name: 'HTML5' },
-  { logo: 'html5', name: 'HTML5' },
-]
-
 export default function Coding() {
   return (
     <section>
@@ -115,8 +107,29 @@ export default function Coding() {
           <span className='flex justify-center items-center'>
             <img
               className='h-9 brightness-50 hover:scale-150 transition'
-              alt='MyPhoto'
+              alt='Nebular Agency'
               src='/logos/nebular2.png'
+            />
+          </span>
+          <span className='flex justify-center items-center'>
+            <img
+              className='h-9 grayscale brightness-75 contrast-50 hover:scale-150 transition'
+              alt='MV Realty'
+              src='/logos/mvrealty.png'
+            />
+          </span>
+          <span className='flex justify-center items-center'>
+            <img
+              className='h-6 brightness-50 hover:scale-150 transition'
+              alt='JetRide'
+              src='/logos/jetride.png'
+            />
+          </span>
+          <span className='flex justify-center items-center'>
+            <img
+              className='h-9 grayscale brightness-75 hover:scale-150 transition'
+              alt='Curator'
+              src='/logos/curator.png'
             />
           </span>
 

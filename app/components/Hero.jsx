@@ -6,20 +6,16 @@ export default function Hero() {
       <div className='container mx-auto flex px-5 py-24 md:flex-row flex-col items-center'>
         <div className='lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center'>
           <h1 className='title-font sm:text-4xl text-3xl mb-4 font-medium text-zinc-200'>
-            Todd H. Albert
+            Todd H. Albert{' '}
             <br className='hidden lg:inline-block' />
             Senior Software Engineer
           </h1>
           <p className={`mb-8 text-lg leading-relaxed ${barlow.className}`}>
-            Todd has over 40 years of coding experience, including over 20 years of experience
-            working with Fortune 500 companies. He has worked with a wide variety of technologies
-            and languages, including C#, JavaScript, React, Unity, React-Native, Swift, and SQL.
-          </p>
-          <p className={`mb-8 text-lg leading-relaxed ${barlow.className}`}>
-            Todd is a former NASA Research Fellow and Professor with over 20 years of teaching
-            experience, including developing curriculum, mentoring students, and evaluating
-            grant proposals for NASA. He has over 13 years experience as an entrepreneur and
-            has managed teams of up to 20 people.
+            Seasoned software engineer with over 30 years of experience in the industry. Proven ability to lead
+            and manage teams, as well as develop and deliver high-quality software solutions. Extensive experience
+            with a wide range of technologies and languages, including C#, JavaScript, React, Unity, React-Native,
+            Swift, AWS, Google Cloud, Azure, Mongo, Firestore, and SQL. Former NASA Research Fellow and Professor.
+            Experienced entrepreneur with over 13 years of experience managing teams of up to 20 people.
           </p>
           <div className='flex justify-center'>
             <a href="https://github.com/toddalbert" target='_Blank' rel='nofollow noreferrer' className='inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg'>

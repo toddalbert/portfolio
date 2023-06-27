@@ -76,16 +76,40 @@ export default function Teaching() {
               src='/logos/cires.png'
             />
           </span>
+          <span className='flex justify-center items-center'>
+            <img
+              className='h-12 brightness-50 hover:scale-150 transition'
+              alt='University of Colorado Boulder'
+              src='/logos/cu-boulder.png'
+            />
+          </span>
+          <span className='flex justify-center items-center'>
+            <img
+              className='h-14 brightness-50 hover:scale-150 transition'
+              alt='Florida State University'
+              src='/logos/fsu.png'
+            />
+          </span>
+          <span className='flex justify-center items-center'>
+            <img
+              className='h-9 brightness-50 hover:scale-150 transition'
+              alt='Florida State University'
+              src='/logos/uf.png'
+            />
+          </span>
+          <span className='flex justify-center items-center'>
+            <img
+              className='h-12 grayscale hover:scale-150 transition'
+              alt='GLIMS'
+              src='/logos/glims.png'
+            />
+          </span>
           {/*
-              CU
-              FSU
-              UF
-              NOAA
-              NSF
-              EGU
-              AAG
-              CRYOLIST
-              GLIMS
+            NOAA
+            NSF
+            EGU
+            AAG
+            CRYOLIST
           */}
         </div>
       </div>

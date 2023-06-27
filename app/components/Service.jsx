@@ -33,14 +33,14 @@ export default function Teaching() {
           </span>
           <span className='flex justify-center items-center'>
             <img
-              className='h-9 brightness-50 hover:scale-150 transition'
+              className='h-12 brightness-50 hover:scale-150 transition'
               alt='Boca Code'
               src='/logos/boca-code.svg'
             />
           </span>
           <span className='flex justify-center items-center'>
             <img
-              className='h-9 invert contrast-50 hover:scale-150 transition'
+              className='h-9 brightness-50 hover:scale-150 transition'
               alt='Imanyco'
               src='/logos/imanyco.png'
             />
@@ -52,6 +52,41 @@ export default function Teaching() {
               src='/logos/magic-city-cup.png'
             />
           </span>
+          <span className='flex justify-center items-center'>
+            <img
+              className='h-12 brightness-75 contrast-100 hover:scale-150 transition'
+              alt='South Florida Tech Hub'
+              src='/logos/techhub.png'
+            />
+          </span>
+          <span className='flex justify-center items-center'>
+            <img
+              className='h-12 brightness-50 contrast-50 hover:scale-150 transition'
+              alt='FAU Tech Runway'
+              src='/logos/techrunway.png'
+            />
+          </span>
+          <span className='flex justify-center items-center'>
+            <img
+              className='h-9 brightness-50 contrast-50 hover:scale-150 transition'
+              alt='1909'
+              src='/logos/1909.png'
+            />
+          </span>
+          <span className='flex justify-center items-center'>
+            <img
+              className='h-12 grayscale hover:scale-150 transition'
+              alt='GLIMS'
+              src='/logos/glims.png'
+            />
+          </span>
+
+          {/*
+            CRYOLIST
+            Mythical Buddies
+            GISH
+            Florida JS
+          */}
           
         </div>
       </div>

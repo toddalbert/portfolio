@@ -71,14 +71,14 @@ export default function Coding() {
           </span>
           <span className='flex justify-center items-center'>
             <img
-              className='h-9 invert contrast-50 hover:scale-150 transition'
+              className='h-9 brightness-50 hover:scale-150 transition'
               alt='Imanyco'
               src='/logos/imanyco.png'
             />
           </span>
           <span className='flex justify-center items-center'>
             <img
-              className='h-9 invert contrast-50 hover:scale-150 transition'
+              className='h-9 brightness-50 hover:scale-150 transition'
               alt='Koda'
               src='/logos/koda.png'
             />

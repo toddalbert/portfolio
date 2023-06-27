@@ -3,10 +3,10 @@ export default function Teaching() {
     <section>
       <div className='py-8 lg:py-16 mx-auto max-w-screen-xl px-4'>
         <h2 className='mb-8 lg:mb-16 text-3xl font-medium tracking-tight leading-tight text-center text-zinc-900 dark:text-zinc-200 md:text-4xl'>
-          22+ Years of Academic Experience
+          Dedicated to Service and Mentorship
         </h2>
         <div className='grid grid-cols-2 gap-8 text-zinc-500 sm:gap-12 md:grid-cols-3 lg:grid-cols-6 dark:text-zinc-400'>
-          <span className='flex justify-center items-center'>
+        <span className='flex justify-center items-center'>
             <img
               className='h-12 brightness-50 hover:scale-150 transition'
               alt='NASA'
@@ -33,60 +33,26 @@ export default function Teaching() {
           </span>
           <span className='flex justify-center items-center'>
             <img
-              className='h-12 grayscale brightness-200 contrast-0 hover:scale-150 transition'
-              alt='University of Miami'
-              src='/logos/um.png'
-            />
-          </span>
-          <span className='flex justify-center items-center'>
-            <img
-              className='h-12 brightness-50 hover:scale-150 transition'
-              alt='Tallahassee Community College'
-              src='/logos/tcc.png'
-            />
-          </span>
-
-          <span className='flex justify-center items-center'>
-            <img
-              className='h-9 grayscale brightness-200 contrast-0 hover:scale-150 transition'
-              alt='The Ohio State University'
-              src='/logos/osu.svg'
-            />
-          </span>
-          <span className='flex justify-center items-center'>
-            <img
-              className='h-12 grayscale brightness-200 contrast-0 hover:scale-150 transition'
-              alt='Cornerstone Learning Community'
-              src='/logos/clc.png'
-            />
-          </span>
-          
-          <span className='flex justify-center items-center'>
-            <img
               className='h-9 brightness-50 hover:scale-150 transition'
               alt='Boca Code'
               src='/logos/boca-code.svg'
             />
           </span>
-
           <span className='flex justify-center items-center'>
             <img
-              className='h-9 brightness-50 contrast-50 hover:scale-150 transition'
-              alt='CIRES'
-              src='/logos/cires.png'
+              className='h-9 invert contrast-50 hover:scale-150 transition'
+              alt='Imanyco'
+              src='/logos/imanyco.png'
             />
           </span>
-          {/*
-              CU
-              FSU
-              UF
-              NOAA
-              NSF
-              EGU
-              AAG
-              CRYOLIST
-              GLIMS
-          */}
+          <span className='flex justify-center items-center'>
+            <img
+              className='h-12 brightness-50 contrast-50 hover:scale-150 transition'
+              alt='Magic City Cup'
+              src='/logos/magic-city-cup.png'
+            />
+          </span>
+          
         </div>
       </div>
     </section>

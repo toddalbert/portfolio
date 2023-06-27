@@ -15,7 +15,7 @@ export default function Coding() {
           </span>
           <span className='flex justify-center items-center'>
             <img
-              className='h-9 grayscale brightness-50 contrast-150 hover:scale-150 transition'
+              className='h-9 brightness-50 contrast-50 hover:scale-150 transition'
               alt='Marvel'
               src='/logos/marvel.svg'
             />

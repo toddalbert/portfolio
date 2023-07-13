@@ -6,13 +6,6 @@ export default function Teaching() {
           22+ Years of Academic Experience
         </h2>
         <div className='grid grid-cols-2 gap-8 text-zinc-500 sm:gap-12 md:grid-cols-3 lg:grid-cols-6 dark:text-zinc-400'>
-          <span className='flex justify-center items-center'>
-            <img
-              className='h-12 brightness-50 hover:scale-150 transition'
-              alt='NASA'
-              src='/logos/nasa.png'
-            />
-          </span>
 
 
           <span className='flex justify-center items-center'>
@@ -29,6 +22,13 @@ export default function Teaching() {
               className='h-9 grayscale brightness-200 contrast-0 hover:scale-150 transition'
               alt='Bowling Green State University'
               src='/logos/bgsu-rev.svg'
+            />
+          </span>
+          <span className='flex justify-center items-center'>
+            <img
+              className='h-14 brightness-50 hover:scale-150 transition'
+              alt='NASA'
+              src='/logos/nasa.png'
             />
           </span>
           <span className='flex justify-center items-center'>
@@ -93,7 +93,7 @@ export default function Teaching() {
           <span className='flex justify-center items-center'>
             <img
               className='h-9 brightness-50 hover:scale-150 transition'
-              alt='Florida State University'
+              alt='University of Florida'
               src='/logos/uf.png'
             />
           </span>
@@ -104,13 +104,41 @@ export default function Teaching() {
               src='/logos/glims.png'
             />
           </span>
-          {/*
-            NOAA
-            NSF
-            EGU
-            AAG
-            CRYOLIST
-          */}
+          <span className='flex justify-center items-center'>
+            <img
+              className='h-12 grayscale brightness-50 hover:scale-150 transition'
+              alt='NOAA'
+              src='/logos/noaa.svg'
+            />
+          </span>
+          <span className='flex justify-center items-center'>
+            <img
+              className='h-12 grayscale brightness-50 hover:scale-150 transition'
+              alt='NSF'
+              src='/logos/nsf.svg'
+            />
+          </span>
+          <span className='flex justify-center items-center'>
+            <img
+              className='h-12 brightness-50 hover:scale-150 transition'
+              alt='EGU'
+              src='/logos/egu.svg'
+            />
+          </span>
+          <span className='flex justify-center items-center'>
+            <img
+              className='h-12 brightness-50 hover:scale-150 transition'
+              alt='AAG'
+              src='/logos/aag.svg'
+            />
+          </span>
+          <span className='flex justify-center items-center'>
+            <img
+              className='h-12 grayscale brightness-50 hover:scale-150 transition'
+              alt='Cryolist'
+              src='/logos/cryolist.png'
+            />
+          </span>
         </div>
       </div>
     </section>

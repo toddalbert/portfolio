@@ -34,7 +34,13 @@ export default function Teaching() {
               src='/logos/mvrealty.png'
             />
           </span>
-        
+          <span className='flex justify-center items-center'>
+            <img
+              className='h-12 brightness-50 hover:scale-150 transition'
+              alt='Frenchie Ballers'
+              src='/logos/frenchie-ballers.png'
+            />
+          </span>
         </div>
       </div>
     </section>

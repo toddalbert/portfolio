@@ -3,6 +3,7 @@ import Coding from './components/Coding'
 import Teaching from './components/Teaching'
 import Entrepreneur from './components/Entrepreneur'
 import Service from './components/Service'
+import Footer from './components/Footer'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Teaching />
       <Entrepreneur />
       <Service />
+      <Footer />
     </>
   )
 }

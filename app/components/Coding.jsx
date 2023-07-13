@@ -1,13 +1,13 @@
 export default function Coding() {
   return (
-    <section>
+    <section data-aos="fade-up" data-aos-duration="500" data-aos-offset="100">
       <div className='py-8 lg:py-16 mx-auto my-auto max-w-screen-xl px-4'>
         <h2 className='text-3xl font-medium tracking-tight leading-tight text-center text-zinc-900 dark:text-zinc-200 md:text-4xl'>
           40+ Years of Coding Experience
         </h2>
-        <p className="mb-8 lg:mb-16 w-lg tracking-tight leading-tight text-center text-zinc-400 my-auto">I've been coding since I was 7 years old and professionally since 1992. I have
-          extensive experience working with Fortune 500 companies and startups alike. From
-          AR and VR games to web apps to mobile, there's nothing I can't build.
+        <p className="my-4 lg:mb-16 w-sm md:w-1/2 mx-auto tracking-tight leading-tight text-center text-zinc-400">
+          I have extensive experience working with Fortune 500 companies and startups alike. From
+          AR and VR games to web apps to mobile, I haven't met a project I couldn't build.
         </p>
         <div className='grid grid-cols-2 gap-8 text-zinc-500 sm:gap-12 md:grid-cols-3 lg:grid-cols-6 dark:text-zinc-400'>
           <span className='flex justify-center items-center'>

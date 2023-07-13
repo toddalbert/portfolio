@@ -1,10 +1,16 @@
 export default function Teaching() {
   return (
-    <section>
+    <section data-aos="fade-up" data-aos-duration="500" data-aos-offset="100">
       <div className='py-8 lg:py-16 mx-auto max-w-screen-xl px-4'>
-        <h2 className='mb-8 lg:mb-16 text-3xl font-medium tracking-tight leading-tight text-center text-zinc-900 dark:text-zinc-200 md:text-4xl'>
+        <h2 className='text-3xl font-medium tracking-tight leading-tight text-center text-zinc-900 dark:text-zinc-200 md:text-4xl'>
           22+ Years of Academic Experience
         </h2>
+        <p className="my-4 lg:mb-16 w-sm md:w-1/2 mx-auto tracking-tight leading-tight text-center text-zinc-400">
+          From developing a rolling 3-year wheel curriculum for Middle School,
+          growing the numbers of majors in a University program by 20x in on year,
+          developing and teaching a new major at a state University, to founding and running a
+          coding boot camp, teaching is a passion and talent.
+        </p>
         <div className='grid grid-cols-2 gap-8 text-zinc-500 sm:gap-12 md:grid-cols-3 lg:grid-cols-6 dark:text-zinc-400'>
 
 
@@ -129,7 +135,7 @@ export default function Teaching() {
             <img
               className='h-12 brightness-50 hover:scale-150 transition'
               alt='AAG'
-              src='/logos/aag.svg'
+              src='/logos/aag.png'
             />
           </span>
           <span className='flex justify-center items-center'>

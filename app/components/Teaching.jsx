@@ -5,7 +5,7 @@ export default function Teaching() {
         <h2 className='text-3xl font-medium tracking-tight leading-tight text-center text-zinc-900 dark:text-zinc-200 md:text-4xl'>
           22+ Years of Academic Experience
         </h2>
-        <p className="my-4 lg:mb-16 w-sm md:w-1/2 mx-auto tracking-tight leading-tight text-center text-zinc-400">
+        <p className="my-4 lg:mb-16 w-sm md:w-1/2 mx-auto tracking-tight leading-tight text-center text-zinc-300">
           From developing a rolling 3-year wheel curriculum for Middle School,
           growing the numbers of majors in a University program by 20x in on year,
           developing and teaching a new major at a state University, to founding and running a

@@ -5,7 +5,7 @@ export default function Coding() {
         <h2 className='text-3xl font-medium tracking-tight leading-tight text-center text-zinc-900 dark:text-zinc-200 md:text-4xl'>
           40+ Years of Coding Experience
         </h2>
-        <p className="my-4 lg:mb-16 w-sm md:w-1/2 mx-auto tracking-tight leading-tight text-center text-zinc-400">
+        <p className="my-4 lg:mb-16 w-sm md:w-1/2 mx-auto tracking-tight leading-tight text-center text-zinc-300">
           I have extensive experience working with Fortune 500 companies and startups alike. From
           AR and VR games to web apps to mobile, I haven't met a project I couldn't build.
         </p>

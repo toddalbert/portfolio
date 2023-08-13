@@ -1,5 +1,6 @@
 import Hero from './components/Hero'
 import Coding from './components/Coding'
+import Tech from './components/Tech'
 import Teaching from './components/Teaching'
 import Entrepreneur from './components/Entrepreneur'
 import Service from './components/Service'
@@ -10,6 +11,7 @@ export default function Home() {
     <>
       <Hero />
       <Coding />
+      <Tech />
       <Teaching />
       <Entrepreneur />
       <Service />

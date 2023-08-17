@@ -8,7 +8,7 @@ export default function Tech() {
         <div className='grid grid-cols-2 gap-8 text-zinc-400 sm:gap-12 md:grid-cols-3 lg:grid-cols-6'>
           <span className='flex justify-center items-center'>
             <img
-              className='h-9 grayscale brightness-200 contrast-0 hover:scale-150 transition'
+              className='h-8 grayscale brightness-200 contrast-0 hover:scale-150 transition'
               alt='Next.js'
               src='/tech/Nextjs-logo.svg'
             />

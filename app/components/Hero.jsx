@@ -14,7 +14,7 @@ export default function Hero() {
             />
         </div>
 
-        <div className='mt-24 md:mt-8 lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center'>
+        <div className='container mt-24 md:mt-8 lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center'>
           <h1 className='title-font sm:text-4xl text-3xl mb-4 font-medium text-zinc-200'>
             Todd H. Albert, Ph.D. <br className='hidden lg:inline-block' />
             Software Engineer
@@ -33,12 +33,12 @@ export default function Hero() {
             including C#, JavaScript / TypeScript, React, Next.js, Unity, React-Native,
             Swift, AWS, Google Cloud, Azure, Mongo, Firestore, and SQL.
           </p>
-          <div className='flex justify-center'>
+          <div className='flex justify-center flex-wrap'>
             <a
               href='https://www.linkedin.com/in/toddalbert/'
               target='_Blank'
               rel='nofollow noreferrer'
-              className="px-6 py-2 mr-4 transition uppercase bg-transparent border-2 border-blue-500 rounded-lg text-white hover:bg-blue-500 text-md"
+              className="px-6 py-2 mr-4 mb-4 transition uppercase bg-transparent border-2 border-blue-500 rounded-lg text-white hover:bg-blue-500 text-md"
               >
               LinkedIn
             </a>
@@ -46,7 +46,7 @@ export default function Hero() {
               href='https://github.com/toddalbert'
               target='_Blank'
               rel='nofollow noreferrer'
-              className="px-6 py-2 mr-4 transition uppercase bg-transparent border-2 border-blue-500 rounded-lg text-white hover:bg-blue-500 text-md"
+              className="px-6 py-2 mr-4 mb-4 transition uppercase bg-transparent border-2 border-blue-500 rounded-lg text-white hover:bg-blue-500 text-md"
               >
               GitHub
             </a>
@@ -54,7 +54,7 @@ export default function Hero() {
               href='https://scholar.google.dk/citations?user=lYZY0SYAAAAJ&hl=en'
               target='_Blank'
               rel='nofollow noreferrer'
-              className="px-6 py-2 mr-4 transition uppercase bg-transparent border-2 border-blue-500 rounded-lg text-white hover:bg-blue-500 text-md"
+              className="px-6 py-2 mr-4 mb-4 transition uppercase bg-transparent border-2 border-blue-500 rounded-lg text-white hover:bg-blue-500 text-md"
               >
               Google Scholar
             </a>
@@ -62,7 +62,7 @@ export default function Hero() {
               href='https://www.dropbox.com/scl/fi/k42kc1vew64pmwpzqg49y/Albert-resume-Aug-2023.pdf?rlkey=wa1bg4p3zristkmd5kpjvki5w&dl=0'
               target='_Blank'
               rel='nofollow noreferrer'
-              className="px-6 py-2 mr-4 transition uppercase bg-transparent border-2 border-blue-500 rounded-lg text-white hover:bg-blue-500 text-md"
+              className="px-6 py-2 mr-4 mb-4 transition uppercase bg-transparent border-2 border-blue-500 rounded-lg text-white hover:bg-blue-500 text-md"
               >
               Latest Resume
             </a>

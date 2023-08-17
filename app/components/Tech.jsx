@@ -94,7 +94,7 @@ export default function Tech() {
             <img
               className='h-12 grayscale brightness-100 contrast-50 hover:scale-150 transition'
               alt='Firestore'
-              src='/tech/Firestore.svg'
+              src='/tech/firestore.png'
             />
           </span>
           <span className='flex justify-center items-center'>

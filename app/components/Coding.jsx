@@ -56,7 +56,7 @@ export default function Coding() {
             <img
               className='h-12 grayscale brightness-200 contrast-0 hover:scale-150 transition'
               alt='Fiat'
-              src='/logos/fiat.svg'
+              src='/logos/Fiat.svg'
             />
           </span>
           <span className='flex justify-center items-center'>

@@ -143,6 +143,13 @@ export default function Coding() {
               src='/logos/curator.png'
             />
           </span>
+          <span className='flex justify-center items-center'>
+            <img
+              className='h-12 hover:scale-150 transition'
+              alt='Sprint'
+              src='/logos/Sprint_Corporation_Logo.svg'
+            />
+          </span>
           {/*
             Mythical Buddies
           */}

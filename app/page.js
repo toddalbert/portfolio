@@ -1,5 +1,6 @@
 import Hero from './components/Hero'
 import Coding from './components/Coding'
+import Reel from './components/Reel'
 import Tech from './components/Tech'
 import Teaching from './components/Teaching'
 import Entrepreneur from './components/Entrepreneur'
@@ -11,6 +12,7 @@ export default function Home() {
     <>
       <Hero />
       <Coding />
+      <Reel />
       <Tech />
       <Teaching />
       <Entrepreneur />

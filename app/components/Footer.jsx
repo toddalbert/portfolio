@@ -9,58 +9,28 @@ export default function Footer() {
           © 2023 Todd Albert
         </p>
         <span className='inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start'>
+          
           <a
-              href='https://www.facebook.com/ToddHAlbert'
-              target='_Blank'
-              rel='nofollow noreferrer'
-              className='text-zinc-500 transition hover:text-zinc-400'>
+            href='https://medium.com/@toddhalbert'
+            target='_Blank'
+            rel='nofollow noreferrer'
+            className='text-zinc-500 transition hover:text-zinc-400'>
             <svg
               fill='currentColor'
               strokeLinecap='round'
               strokeLinejoin='round'
               strokeWidth='2'
               className='w-5 h-5'
-              viewBox='0 0 24 24'>
-              <path d='M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z'></path>
+              viewBox='0 0 32 32'>
+              <path d='M17.52669,16.21674a6.75084,6.75084,0,1,1-6.75057-6.79713,6.7739,6.7739,0,0,1,6.75057,6.79713m7.40561,0c0,3.53343-1.51121,6.399-3.3754,6.399s-3.3754-2.86554-3.3754-6.399,1.511-6.399,3.37517-6.399,3.3754,2.86463,3.3754,6.399m3.02931,0c0,3.16509-.53142,5.73247-1.18714,5.73247s-1.18691-2.5667-1.18691-5.73247.53142-5.73247,1.18691-5.73247,1.18714,2.56647,1.18714,5.73247' />
             </svg>
           </a>
+
           <a
-              href='https://twitter.com/toddalbert'
-              target='_Blank'
-              rel='nofollow noreferrer'
-              className='ml-3 text-zinc-500 transition hover:text-zinc-400'>
-            <svg
-              fill='currentColor'
-              strokeLinecap='round'
-              strokeLinejoin='round'
-              strokeWidth='2'
-              className='w-5 h-5'
-              viewBox='0 0 24 24'>
-              <path d='M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z'></path>
-            </svg>
-          </a>
-          <a
-              href='https://www.instagram.com/todd.albert/'
-              target='_Blank'
-              rel='nofollow noreferrer'
-              className='ml-3 text-zinc-500 transition hover:text-zinc-400'>
-            <svg
-              fill='none'
-              stroke='currentColor'
-              strokeLinecap='round'
-              strokeLinejoin='round'
-              strokeWidth='2'
-              className='w-5 h-5'
-              viewBox='0 0 24 24'>
-              <rect width='20' height='20' x='2' y='2' rx='5' ry='5'></rect>
-              <path d='M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01'></path>
-            </svg>
-          </a>
-          <a
-              href='https://www.linkedin.com/in/toddalbert/'
-              target='_Blank'
-              rel='nofollow noreferrer'
-              className='ml-3 text-zinc-500 transition hover:text-zinc-400'>
+            href='https://www.linkedin.com/in/toddalbert/'
+            target='_Blank'
+            rel='nofollow noreferrer'
+            className='ml-3 text-zinc-500 transition hover:text-zinc-400'>
             <svg
               fill='currentColor'
               stroke='currentColor'
@@ -73,6 +43,53 @@ export default function Footer() {
                 stroke='none'
                 d='M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z'></path>
               <circle cx='4' cy='4' r='2' stroke='none'></circle>
+            </svg>
+          </a>
+          <a
+            href='https://www.facebook.com/ToddHAlbert'
+            target='_Blank'
+            rel='nofollow noreferrer'
+            className='text-zinc-500 transition hover:text-zinc-400'>
+            <svg
+              fill='currentColor'
+              strokeLinecap='round'
+              strokeLinejoin='round'
+              strokeWidth='2'
+              className='w-5 h-5'
+              viewBox='0 0 24 24'>
+              <path d='M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z'></path>
+            </svg>
+          </a>
+          <a
+            href='https://twitter.com/toddalbert'
+            target='_Blank'
+            rel='nofollow noreferrer'
+            className='ml-3 text-zinc-500 transition hover:text-zinc-400'>
+            <svg
+              fill='currentColor'
+              strokeLinecap='round'
+              strokeLinejoin='round'
+              strokeWidth='2'
+              className='w-5 h-5'
+              viewBox='0 0 24 24'>
+              <path d='M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z'></path>
+            </svg>
+          </a>
+          <a
+            href='https://www.instagram.com/todd.albert/'
+            target='_Blank'
+            rel='nofollow noreferrer'
+            className='ml-3 text-zinc-500 transition hover:text-zinc-400'>
+            <svg
+              fill='none'
+              stroke='currentColor'
+              strokeLinecap='round'
+              strokeLinejoin='round'
+              strokeWidth='2'
+              className='w-5 h-5'
+              viewBox='0 0 24 24'>
+              <rect width='20' height='20' x='2' y='2' rx='5' ry='5'></rect>
+              <path d='M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01'></path>
             </svg>
           </a>
         </span>

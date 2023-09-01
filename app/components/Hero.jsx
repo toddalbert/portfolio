@@ -5,7 +5,7 @@ export default function Hero() {
     <section className='text-zinc-300 body-font'>
       <div className='container mx-auto flex px-5 py-24 md:flex-row flex-col items-center'>
         <div className='lg:max-w-lg lg:w-full md:w-1/2 w-5/6 relative'>
-          <div className='bg-blue-400 opacity-60 -skew-y-6 p-8 rounded-xl absolute -top-8 -left-8 -right-8 -bottom-8'></div>
+          <div className='bg-blue-400 opacity-60 -skew-y-3 rotate-3 p-8 rounded-xl absolute -top-8 -left-8 -right-8 -bottom-8'></div>
             <img
               data-aos="fade-up" data-aos-duration="500" data-aos-offset="100"
               className='object-cover object-center rounded z-10'

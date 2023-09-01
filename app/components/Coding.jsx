@@ -150,9 +150,35 @@ export default function Coding() {
               src='/logos/Sprint_Corporation_Logo.svg'
             />
           </span>
-          {/*
-            Mythical Buddies
-          */}
+          <span className='flex justify-center items-center'>
+            <img
+              className='h-12 grayscale contrast-50 hover:scale-150 transition'
+              alt='Sun Country Airlines'
+              src='/logos/sun-country.webp'
+            />
+          </span>
+          <span className='flex justify-center items-center'>
+            <img
+              className='h-12 grayscale brightness-200 hover:scale-150 transition'
+              alt='Amway'
+              src='/logos/amway.png'
+            />
+          </span>
+          <span className='flex justify-center items-center'>
+            <img
+              className='h-12 hover:scale-150 transition'
+              alt='George P Johnson'
+              src='/logos/GPJ.png'
+            />
+          </span>
+          <span className='flex justify-center items-center'>
+            <img
+              className='h-12 invert opacity-40 hover:scale-150 transition'
+              alt='Mack Industrial'
+              src='/logos/mack-industrial.png'
+            />
+          </span>
+          
         </div>
       </div>
     </section>

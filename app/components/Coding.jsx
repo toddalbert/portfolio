@@ -61,6 +61,13 @@ export default function Coding() {
           </span>
           <span className='flex justify-center items-center'>
             <img
+              className='h-7 grayscale brightness-200 contrast-0 hover:scale-150 transition'
+              alt='Bowling Green State University'
+              src='/logos/bgsu-rev.svg'
+            />
+          </span>
+          <span className='flex justify-center items-center'>
+            <img
               className='h-9 grayscale brightness-200 contrast-0 hover:scale-150 transition'
               alt='AccuWeather'
               src='/logos/AccuWeather.svg'
@@ -124,6 +131,13 @@ export default function Coding() {
           </span>
           <span className='flex justify-center items-center'>
             <img
+              className='h-9 brightness-50 hover:scale-150 transition'
+              alt='Boca Code'
+              src='/logos/boca-code.svg'
+            />
+          </span>
+          <span className='flex justify-center items-center'>
+            <img
               className='h-9 grayscale brightness-75 contrast-50 hover:scale-150 transition'
               alt='MV Realty'
               src='/logos/mvrealty.png'
@@ -148,6 +162,13 @@ export default function Coding() {
               className='h-12 hover:scale-150 transition'
               alt='Sprint'
               src='/logos/Sprint_Corporation_Logo.svg'
+            />
+          </span>
+          <span className='flex justify-center items-center'>
+            <img
+              className='h-12 grayscale brightness-200 contrast-0 hover:scale-150 transition'
+              alt='Cornerstone Learning Community'
+              src='/logos/clc.png'
             />
           </span>
           <span className='flex justify-center items-center'>
@@ -178,7 +199,6 @@ export default function Coding() {
               src='/logos/mack-industrial.png'
             />
           </span>
-          
         </div>
       </div>
     </section>

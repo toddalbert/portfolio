@@ -24,7 +24,7 @@ export default function Teaching() {
           </span>
           <span className='flex justify-center items-center'>
             <img
-              className='h-9 grayscale brightness-200 contrast-0 hover:scale-150 transition'
+              className='h-7 grayscale brightness-200 contrast-0 hover:scale-150 transition'
               alt='Bowling Green State University'
               src='/logos/bgsu-rev.svg'
             />

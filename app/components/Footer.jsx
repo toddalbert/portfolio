@@ -11,7 +11,7 @@ export default function Footer() {
         <span className='inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start'>
           
           <a
-            href='https://medium.com/@toddhalbert'
+            href='https://toddhalbert.medium.com/'
             target='_Blank'
             rel='nofollow noreferrer'
             className='text-zinc-500 transition hover:text-zinc-400'>

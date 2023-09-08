@@ -6,7 +6,8 @@ export default function Reel() {
           Demo Reel
         </h2>
         <div className='my-8'>
-          <iframe className="mx-auto" width="560" height="315" src="https://www.youtube.com/embed/E-rGIy6xVvs?si=-mj0Rz_n6_ckOimY" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          {/* <iframe className="mx-auto md:w-[560px] w-[320px] md:h-[315px] w-[180px]" src="https://www.youtube.com/embed/E-rGIy6xVvs?si=-mj0Rz_n6_ckOimY" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe> */}
+          <iframe className="mx-auto md:w-[691px] md:h-[392px] w-[90vw] h-[51vw]" src="https://www.youtube.com/embed/E-rGIy6xVvs?si=-mj0Rz_n6_ckOimY" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
         </div>
       </div>
     </section>

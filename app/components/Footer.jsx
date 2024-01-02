@@ -1,20 +1,20 @@
 export default function Footer() {
   return (
-    <footer className='text-zinc-600 body-font'>
+    <footer className='text-stone-600 body-font'>
       <div className='container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col'>
-        <a className='flex title-font font-medium items-center md:justify-start justify-center text-zinc-400'>
+        <a className='flex title-font font-medium items-center md:justify-start justify-center text-stone-400'>
           <span className='ml-3 text-xl'>ToddAlbert.com</span>
         </a>
-        <p className='text-sm text-zinc-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-zinc-200 sm:py-2 sm:mt-0 mt-4'>
+        <p className='text-sm text-stone-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-stone-200 sm:py-2 sm:mt-0 mt-4'>
           © 2023 Todd Albert
         </p>
         <span className='inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start'>
-          
+
           <a
             href='https://toddhalbert.medium.com/'
             target='_Blank'
             rel='nofollow noreferrer'
-            className='text-zinc-500 transition hover:text-zinc-400'>
+            className='text-stone-500 transition hover:text-stone-400'>
             <svg
               fill='currentColor'
               strokeLinecap='round'
@@ -30,7 +30,7 @@ export default function Footer() {
             href='https://www.linkedin.com/in/toddalbert/'
             target='_Blank'
             rel='nofollow noreferrer'
-            className='ml-3 text-zinc-500 transition hover:text-zinc-400'>
+            className='ml-3 text-stone-500 transition hover:text-stone-400'>
             <svg
               fill='currentColor'
               stroke='currentColor'
@@ -49,7 +49,7 @@ export default function Footer() {
             href='https://www.facebook.com/ToddHAlbert'
             target='_Blank'
             rel='nofollow noreferrer'
-            className='text-zinc-500 transition hover:text-zinc-400'>
+            className='text-stone-500 transition hover:text-stone-400'>
             <svg
               fill='currentColor'
               strokeLinecap='round'
@@ -64,7 +64,7 @@ export default function Footer() {
             href='https://twitter.com/toddalbert'
             target='_Blank'
             rel='nofollow noreferrer'
-            className='ml-3 text-zinc-500 transition hover:text-zinc-400'>
+            className='ml-3 text-stone-500 transition hover:text-stone-400'>
             <svg
               fill='currentColor'
               strokeLinecap='round'
@@ -79,7 +79,7 @@ export default function Footer() {
             href='https://www.instagram.com/todd.albert/'
             target='_Blank'
             rel='nofollow noreferrer'
-            className='ml-3 text-zinc-500 transition hover:text-zinc-400'>
+            className='ml-3 text-stone-500 transition hover:text-stone-400'>
             <svg
               fill='none'
               stroke='currentColor'

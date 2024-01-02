@@ -2,14 +2,14 @@ export default function Coding() {
   return (
     <section data-aos='fade-up' data-aos-duration='500' data-aos-offset='100'>
       <div className='py-8 lg:py-16 mx-auto my-auto max-w-screen-xl px-4'>
-        <h2 className='text-3xl font-medium tracking-tight leading-tight text-center text-zinc-200 md:text-4xl'>
+        <h2 className='text-3xl font-medium tracking-tight leading-tight text-center text-stone-200 md:text-4xl'>
           40+ Years of Coding Experience
         </h2>
-        <p className='my-4 lg:mb-16 w-sm md:w-1/2 mx-auto tracking-tight leading-tight text-center text-zinc-400'>
+        <p className='my-4 lg:mb-16 w-sm md:w-1/2 mx-auto tracking-tight leading-tight text-center text-stone-400'>
           I have extensive experience working with Fortune 500 companies and startups alike. From AR
           and VR games to web apps to mobile, I haven't met a project I couldn't build.
         </p>
-        <div className='grid grid-cols-2 gap-8 text-zinc-400 sm:gap-12 md:grid-cols-3 lg:grid-cols-6'>
+        <div className='grid grid-cols-2 gap-8 text-stone-400 sm:gap-12 md:grid-cols-3 lg:grid-cols-6'>
           <span className='flex justify-center items-center'>
             <img
               className='h-9 grayscale brightness-200 contrast-0 hover:scale-150 transition'

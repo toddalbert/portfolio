@@ -2,16 +2,16 @@ export default function Teaching() {
   return (
     <section data-aos="fade-up" data-aos-duration="500" data-aos-offset="100">
       <div className='py-8 lg:py-16 mx-auto max-w-screen-xl px-4'>
-        <h2 className='text-3xl font-medium tracking-tight leading-tight text-center text-zinc-200 md:text-4xl'>
+        <h2 className='text-3xl font-medium tracking-tight leading-tight text-center text-stone-200 md:text-4xl'>
           22+ Years of Academic Experience
         </h2>
-        <p className="my-4 lg:mb-16 w-sm md:w-1/2 mx-auto tracking-tight leading-tight text-center text-zinc-400">
+        <p className="my-4 lg:mb-16 w-sm md:w-1/2 mx-auto tracking-tight leading-tight text-center text-stone-400">
           From developing a rolling 3-year wheel curriculum for Middle School,
           growing the numbers of majors in a University program by 20x in on year,
           developing and teaching a new major at a state University, to founding and running a
           coding boot camp, teaching is a passion and talent.
         </p>
-        <div className='grid grid-cols-2 gap-8 text-zinc-500 sm:gap-12 md:grid-cols-3 lg:grid-cols-6 dark:text-zinc-400'>
+        <div className='grid grid-cols-2 gap-8 text-stone-500 sm:gap-12 md:grid-cols-3 lg:grid-cols-6 dark:text-stone-400'>
 
         <span className='flex justify-center items-center'>
             <svg className='h-9 hover:scale-150 transition' version="1.1" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 177.1 41.5">
@@ -65,7 +65,7 @@ export default function Teaching() {
               src='/logos/clc.png'
             />
           </span>
-          
+
           <span className='flex justify-center items-center'>
             <img
               className='h-9 brightness-50 hover:scale-150 transition'

@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import Aos from './components/Aos';
 import './globals.css'
 import { albert } from './fonts';
@@ -27,6 +28,19 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
+      <Head>
+        {/* <meta property="og:image" content="https://www.toddalbert.com/ta-og-image.png" />
+        <meta property="og:title" content="Todd Albert | Hands-on Software Engineering Leader"/>
+        <meta property="og:description" content="Todd is a Former NASA Research Fellow and Professor with over 30 years of coding experience and 14 years of leadership."/>
+        <meta property="og:image:width" content="1200"/>
+        <meta property="og:image:height" content="630"/> */}
+        <meta property="twitter:image" content="https://www.toddalbert.com/ta-og-image.png" />
+        <meta property="twitter:image:width" content="1200"/>
+        <meta property="twitter:image:height" content="630"/>
+        <meta property="twitter:card" content="summary_large_image"/>
+        <meta property="twitter:site" content="@toddalbert"/>
+        <meta property="twitter:creator" content="@toddalbert"/>
+      </Head>
       <body className={`bg-stone-900 dark ${albert.className}`}>
         <Aos />
         {children}</body>

@@ -56,8 +56,7 @@ export default function Hero() {
               Google Scholar
             </a>
             <a
-              // href='https://www.dropbox.com/scl/fi/nvudlrd49tnqpmgv6oykg/Albert-resume-Sep-2023.pdf?rlkey=q5hlnug2vkaz0i1wh7cgq2vg9&dl=0'
-              href='https://www.dropbox.com/scl/fi/rjvyu7ba0z5n25z1atzwd/Albert-resume-Dec-2023.pdf?rlkey=vpp7wehg2qcemopgryie9f9qd&dl=0'
+              href='https://www.dropbox.com/scl/fi/asdcwcnqhzgi1r8zpd9hw/Albert-Todd-resume-Jan-2024.pdf?rlkey=2iu10afcwm4gugi0s2uzkeoni&dl=0'
               target='_Blank'
               rel='nofollow noreferrer'
               className='px-6 py-2 mr-4 mb-4 transition uppercase bg-transparent border-2 border-blue-500 rounded-lg text-white hover:bg-blue-500 text-md'>

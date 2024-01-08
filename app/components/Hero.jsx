@@ -56,7 +56,7 @@ export default function Hero() {
               Google Scholar
             </a>
             <a
-              href='https://www.dropbox.com/scl/fi/asdcwcnqhzgi1r8zpd9hw/Albert-Todd-resume-Jan-2024.pdf?rlkey=2iu10afcwm4gugi0s2uzkeoni&dl=0'
+              href='https://www.dropbox.com/scl/fi/6afg3sfzsbczawstiqwdb/Albert-Todd-resume-Jan-2024.pdf?rlkey=1b34s9w4k8t8vxa2rej6ikrig&dl=0'
               target='_Blank'
               rel='nofollow noreferrer'
               className='px-6 py-2 mr-4 mb-4 transition uppercase bg-transparent border-2 border-blue-500 rounded-lg text-white hover:bg-blue-500 text-md'>

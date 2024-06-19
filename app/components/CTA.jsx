@@ -9,32 +9,32 @@ export default function CTA() {
           </h2>
           <div className='flex justify-center flex-wrap'>
             <a
+              href='/Albert-Todd-resume-June-2024.pdf'
+              target='_Blank'
+              rel='nofollow noreferrer'
+              className='px-6 py-2 mr-4 mb-4 transition uppercase bg-blue-500 border-2 border-blue-500 rounded-lg text-white hover:bg-blue-700 hover:border-blue-700 text-md'>
+              Latest Resume
+            </a>
+            <a
               href='https://www.linkedin.com/in/toddalbert/'
               target='_Blank'
               rel='nofollow noreferrer'
-              className='px-6 py-2 mr-4 mb-4 transition uppercase bg-transparent border-2 border-blue-500 rounded-lg text-white hover:bg-blue-500 text-md'>
+              className='px-6 py-2 mr-4 mb-4 transition uppercase bg-transparent border-2 border-blue-500 rounded-lg text-white hover:bg-blue-700 hover:border-blue-700 text-md'>
               LinkedIn
             </a>
             <a
               href='https://github.com/toddalbert'
               target='_Blank'
               rel='nofollow noreferrer'
-              className='px-6 py-2 mr-4 mb-4 transition uppercase bg-transparent border-2 border-blue-500 rounded-lg text-white hover:bg-blue-500 text-md'>
+              className='px-6 py-2 mr-4 mb-4 transition uppercase bg-transparent border-2 border-blue-500 rounded-lg text-white hover:bg-blue-700 hover:border-blue-700 text-md'>
               GitHub
             </a>
             <a
               href='https://scholar.google.dk/citations?user=lYZY0SYAAAAJ&hl=en'
               target='_Blank'
               rel='nofollow noreferrer'
-              className='px-6 py-2 mr-4 mb-4 transition uppercase bg-transparent border-2 border-blue-500 rounded-lg text-white hover:bg-blue-500 text-md'>
+              className='px-6 py-2 mr-4 mb-4 transition uppercase bg-transparent border-2 border-blue-500 rounded-lg text-white hover:bg-blue-700 hover:border-blue-700 text-md'>
               Google Scholar
-            </a>
-            <a
-              href='https://www.dropbox.com/scl/fi/2o9a0zj50fkypfaws792b/Albert-Todd-resume-May-2024.pdf?rlkey=12nddgfgoccztg3hnpxkab64l&dl=0'
-              target='_Blank'
-              rel='nofollow noreferrer'
-              className='px-6 py-2 mr-4 mb-4 transition uppercase bg-transparent border-2 border-blue-500 rounded-lg text-white hover:bg-blue-500 text-md'>
-              Latest Resume
             </a>
           </div>
         </div>

@@ -3,7 +3,7 @@ export default function Coding() {
     <section data-aos='fade-up' data-aos-duration='500' data-aos-offset='100'>
       <div className='py-8 lg:py-16 mx-auto my-auto max-w-screen-xl px-4'>
         <h2 className='text-3xl font-medium tracking-tight leading-tight text-center text-stone-200 md:text-4xl'>
-          40+ Years of Coding Experience
+          30+ Years of Coding Experience
         </h2>
         <p className='my-4 lg:mb-16 w-sm md:w-1/2 mx-auto tracking-tight leading-tight text-center text-stone-400'>
           I have extensive experience working with Fortune 500 companies and startups alike. From AR

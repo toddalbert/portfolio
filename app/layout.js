@@ -5,11 +5,11 @@ import { albert } from './fonts';
 import 'aos/dist/aos.css';
 
 export const metadata = {
-  title: 'Todd Albert | Hands-on Software Engineering Leader',
-  description: 'Todd is a Former NASA Research Fellow and Professor with over 30 years of coding experience and 14 years of leadership.',
+  title: 'Todd Albert | Passionate Tech Leader',
+  description: 'Todd is a Former NASA Research Fellow and Professor with over 30 years of coding experience and 15 years of leadership.',
   openGraph: {
-    title: 'Todd Albert | Hands-on Software Engineering Leader',
-    description: 'Todd is a Former NASA Research Fellow and Professor with over 30 years of coding experience and 14 years of leadership.',
+    title: 'Todd Albert | Passionate Tech Leader',
+    description: 'Todd is a Former NASA Research Fellow and Professor with over 30 years of coding experience and 15 years of leadership.',
     url: 'https://www.toddalbert.com/',
     siteName: 'toddalbert.com',
     images: [

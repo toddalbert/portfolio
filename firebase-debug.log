@@ -1,0 +1,46 @@
+[debug] [2024-08-23T15:33:19.156Z] ----------------------------------------------------------------------
+[debug] [2024-08-23T15:33:19.158Z] Command:       /Users/toddalbert/.nvm/versions/node/v20.4.0/bin/node /Users/toddalbert/.nvm/versions/node/v20.4.0/bin/firebase deploy
+[debug] [2024-08-23T15:33:19.159Z] CLI Version:   13.15.1
+[debug] [2024-08-23T15:33:19.159Z] Platform:      darwin
+[debug] [2024-08-23T15:33:19.159Z] Node Version:  v20.4.0
+[debug] [2024-08-23T15:33:19.160Z] Time:          Fri Aug 23 2024 11:33:19 GMT-0400 (Eastern Daylight Time)
+[debug] [2024-08-23T15:33:19.160Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-08-23T15:33:19.163Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2024-08-23T15:33:19.267Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-08-23T15:33:19.268Z] > authorizing via signed-in user (toddalbert@gmail.com)
+[debug] [2024-08-23T15:33:19.268Z] [iam] checking project toddalbert-com for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-08-23T15:33:19.270Z] > refreshing access token with scopes: []
+[debug] [2024-08-23T15:33:19.270Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-08-23T15:33:19.271Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-08-23T15:33:19.388Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-08-23T15:33:19.389Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-08-23T15:33:19.403Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/toddalbert-com:testIamPermissions [none]
+[debug] [2024-08-23T15:33:19.403Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/toddalbert-com:testIamPermissions x-goog-quota-user=projects/toddalbert-com
+[debug] [2024-08-23T15:33:19.403Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/toddalbert-com:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-08-23T15:33:19.471Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2024-08-23T15:33:19.472Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2024-08-23T15:33:19.637Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/toddalbert-com:testIamPermissions 200
+[debug] [2024-08-23T15:33:19.637Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/toddalbert-com:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-08-23T15:33:19.638Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/toddalbert-com [none]
+[debug] [2024-08-23T15:33:20.103Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/toddalbert-com 200
+[debug] [2024-08-23T15:33:20.104Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/toddalbert-com {"projectId":"toddalbert-com","projectNumber":"90484764714","displayName":"toddalbert-com","name":"projects/toddalbert-com","resources":{"hostingSite":"toddalbert-com","realtimeDatabaseInstance":"toddalbert-com","storageBucket":"toddalbert-com.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_b264cc83-685a-4f0b-9c16-e149f7edcbef"}
+[info] 
+   Thank you for trying our early preview of Next.js support on Firebase Hosting.
+   During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/nextjs
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[debug] [2024-08-23T15:33:24.333Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/toddalbert-com/sites/toddalbert-com [none]
+[debug] [2024-08-23T15:33:24.739Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/toddalbert-com/sites/toddalbert-com 200
+[debug] [2024-08-23T15:33:24.740Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/toddalbert-com/sites/toddalbert-com {"name":"projects/toddalbert-com/sites/toddalbert-com","defaultUrl":"https://toddalbert-com.web.app","type":"DEFAULT_SITE"}
+[info] - info Creating an optimized production build...
+
+[info] Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+

@@ -22,16 +22,16 @@ export default function Hero() {
             Software Engineer
           </h1>
           <p className='mb-8 text-md leading-relaxed text-stone-400'>
-            Todd is a hands-on software engineering leader and product developer with over
-            30 years of coding experience and 14 years of leadership. He has worked in various
+            Todd is a hands-on software engineering leader, systems engineer, and product developer with over
+            30 years of coding experience and 15 years of leadership. He has worked in various
             roles, including Principal Software Engineer, VP of Engineering, and CTO.
           </p>
           <p className='mb-8 text-md leading-relaxed text-stone-400'>
             From developing AI apps for the accessibility community to AR apps for Fortune 500
             companies, Todd has led the design, development, and architecture of dozens of projects,
             including mobile apps, e-commerce platforms, and custom VR and AR games. He has expertise in
-            AI, Blockchain, AR, Cloud, JavaScript, React, Node, Next, React Native, C#, Unity, Swift,
-            AWS, Google Cloud, Mongo, Firestore, SQL, Solidity, and many other technologies.
+            AI, AR, AWS, Blockchain, C#, Cloud, Firestore, Game Dev, Google Cloud, JavaScript, Mongo,
+            Node, Next, Python, React, React Native, Solidity, SQL, Swift, Unity, and many other technologies.
           </p>
           <div className='flex justify-center flex-wrap'>
             <a

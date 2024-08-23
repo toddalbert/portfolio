@@ -19,7 +19,7 @@ export default function Hero() {
         <div className='container mt-24 md:mt-8 lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center'>
           <h1 className='title-font sm:text-4xl text-3xl mb-4 font-medium text-stone-200'>
             Todd H. Albert, Ph.D. <br className='hidden lg:inline-block' />
-            Software Engineer
+            Tech Leader
           </h1>
           <p className='mb-8 text-md leading-relaxed text-stone-400'>
             Todd is a hands-on software engineering leader, systems engineer, and product developer with over

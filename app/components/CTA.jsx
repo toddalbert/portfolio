@@ -12,28 +12,28 @@ export default function CTA() {
               href='/Albert-Todd-resume-June-2024.pdf'
               target='_Blank'
               rel='nofollow noreferrer'
-              className='px-6 py-2 mr-4 mb-4 transition uppercase bg-orange-600 border-2 border-orange-600 rounded-lg text-white hover:bg-orange-400 hover:border-orange-400 text-md'>
+              className='px-6 py-2 mr-4 mb-4 transition uppercase bg-blue-500 border-2 border-blue-500 rounded-lg text-white hover:bg-orange-400 hover:border-orange-400 text-md'>
               Latest Resume
             </a>
             <a
               href='https://www.linkedin.com/in/toddalbert/'
               target='_Blank'
               rel='nofollow noreferrer'
-              className='px-6 py-2 mr-4 mb-4 transition uppercase bg-transparent border-2 border-orange-600 rounded-lg text-white hover:bg-orange-400 hover:border-orange-400 text-md'>
+              className='px-6 py-2 mr-4 mb-4 transition uppercase bg-transparent border-2 border-blue-500 rounded-lg text-white hover:bg-orange-400 hover:border-orange-400 text-md'>
               LinkedIn
             </a>
             <a
               href='https://github.com/toddalbert'
               target='_Blank'
               rel='nofollow noreferrer'
-              className='px-6 py-2 mr-4 mb-4 transition uppercase bg-transparent border-2 border-orange-600 rounded-lg text-white hover:bg-orange-400 hover:border-orange-400 text-md'>
+              className='px-6 py-2 mr-4 mb-4 transition uppercase bg-transparent border-2 border-blue-500 rounded-lg text-white hover:bg-orange-400 hover:border-orange-400 text-md'>
               GitHub
             </a>
             <a
               href='https://scholar.google.dk/citations?user=lYZY0SYAAAAJ&hl=en'
               target='_Blank'
               rel='nofollow noreferrer'
-              className='px-6 py-2 mr-4 mb-4 transition uppercase bg-transparent border-2 border-orange-600 rounded-lg text-white hover:bg-orange-400 hover:border-orange-400 text-md'>
+              className='px-6 py-2 mr-4 mb-4 transition uppercase bg-transparent border-2 border-blue-500 rounded-lg text-white hover:bg-orange-400 hover:border-orange-400 text-md'>
               Google Scholar
             </a>
           </div>

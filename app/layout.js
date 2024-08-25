@@ -41,9 +41,14 @@ export default function RootLayout({ children }) {
         <meta property="twitter:site" content="@toddalbert"/>
         <meta property="twitter:creator" content="@toddalbert"/>
       </Head>
-      <body className={`bg-stone-900 dark ${albert.className}`}>
+      <body className={`bg-[#28193B] dark ${albert.className}`}>
         <Aos />
         {children}</body>
     </html>
   )
 }
+
+
+// Orange: #E65721
+// Purple: #28193B
+// lite purple: #301F46

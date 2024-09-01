@@ -237,6 +237,13 @@ export default function Coding() {
               src='/logos/site-impact.png'
             />
           </span>
+          <span className='flex justify-center items-center'>
+            <img
+              className='h-12 brightness-75 hover:scale-150 transition'
+              alt='Hemp Temps'
+              src='/logos/hemp-temps.png'
+            />
+          </span>
         </div>
       </div>
     </section>

@@ -15,6 +15,13 @@ export default function Teaching() {
           </span>
           <span className='flex justify-center items-center'>
             <img
+              className='h-12 brightness-75 hover:scale-150 transition'
+              alt='Hemp Temps'
+              src='/logos/hemp-temps.png'
+            />
+          </span>
+          <span className='flex justify-center items-center'>
+            <img
               className='h-9 brightness-75 hover:scale-150 transition'
               alt='Boca Code'
               src='/logos/boca-code.svg'

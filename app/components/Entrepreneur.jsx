@@ -8,6 +8,13 @@ export default function Teaching() {
         <div className='grid grid-cols-2 gap-8 text-stone-400 sm:gap-12 md:grid-cols-3 lg:grid-cols-6'>
           <span className='flex justify-center items-center'>
             <img
+              className='h-9 grayscale contrast-50 brightness-125 hover:scale-150 transition'
+              alt='Site Impact'
+              src='/logos/site-impact.png'
+            />
+          </span>
+          <span className='flex justify-center items-center'>
+            <img
               className='h-9 brightness-75 hover:scale-150 transition'
               alt='Boca Code'
               src='/logos/boca-code.svg'

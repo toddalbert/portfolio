@@ -28,10 +28,14 @@ export default function Hero() {
           </p>
           <p className='mb-8 text-md leading-relaxed text-stone-400'>
             From developing AI apps for the accessibility community to AR apps for Fortune 500
-            companies, Todd has led the design, development, and architecture of dozens of projects,
-            including mobile apps, e-commerce platforms, and custom VR and AR games. He has expertise in
-            AI, AR, AWS, Blockchain, C#, Cloud, Firestore, Game Dev, Google Cloud, JavaScript, Mongo,
-            Node, Next, Python, React, React Native, Solidity, SQL, Swift, Unity, and many other technologies.
+            companies, Todd has recruited, built, and lead teams, designing and launching projects spanning
+            from web and e-commerce platforms, mobile apps and games, AI, data science and engineering, AR and VR,
+            to web3 and blockchain.
+          </p>
+          <p className='mb-8 text-md leading-relaxed text-stone-400'>
+            Todd expertise in AI, AR, AWS, Azure, Blockchain, C#, Cloud, Data Science and Engineering,
+            Firestore, Game Dev, Google Cloud, JavaScript, leadership, Mongo, Next, Node, Python, React,
+            React Native, Solidity, SQL, Swift, Tailwind CSS, Terraform, Unity, and many other technologies.
           </p>
           <div className='flex justify-center flex-wrap'>
             <a

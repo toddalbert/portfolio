@@ -32,11 +32,6 @@ export default function Hero() {
             from web and e-commerce platforms, mobile apps and games, AI, data science and engineering, AR and VR,
             to web3 and blockchain.
           </p>
-          <p className='mb-8 text-md leading-relaxed text-stone-400'>
-            Todd expertise in AI, AR, AWS, Azure, Blockchain, C#, Cloud, Data Science and Engineering,
-            Firestore, Game Dev, Google Cloud, JavaScript, leadership, Mongo, Next, Node, Python, React,
-            React Native, Solidity, SQL, Swift, Tailwind CSS, Terraform, Unity, and many other technologies.
-          </p>
           <div className='flex justify-center flex-wrap'>
             <a
               href='/Albert-Todd-resume-Sep-2024.pdf'

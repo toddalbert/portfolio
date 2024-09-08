@@ -86,7 +86,7 @@ export default function QuickView({ src, alt, className, slug, videoSrc, videoAl
                       <div className='mt-4 w-full'>
                         <h4 className='sr-only'>Technology used</h4>
                         {product.tech && product.tech.map(tech => (
-                          <span key={tech} class="text-sm font-medium me-2 px-2.5 py-0.5 rounded bg-blue-900 text-blue-300">{tech}</span>
+                          <span key={tech} className="text-sm font-medium me-2 px-2.5 py-0.5 rounded bg-blue-900 text-blue-300">{tech}</span>
                         ))}
                       </div>
 

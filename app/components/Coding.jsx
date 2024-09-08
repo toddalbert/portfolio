@@ -23,7 +23,7 @@ const techs = [
   'Python',
   'React',
   'Solidity',
-  'SQL,',
+  'SQL',
   'Swift',
   'Tailwind',
   'Terrform',

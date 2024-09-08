@@ -1,3 +1,5 @@
+import QuickView from "./QuickView";
+
 export default function Coding() {
   return (
     <section data-aos='fade-up' data-aos-duration='500' data-aos-offset='100'>
@@ -9,21 +11,18 @@ export default function Coding() {
           I have extensive experience working with Fortune 500 companies and startups alike. From AR
           and VR games to web apps to mobile, I haven't met a project I couldn't build.
         </p>
+
         <div className='grid grid-cols-2 gap-8 text-stone-400 sm:gap-12 md:grid-cols-3 lg:grid-cols-6'>
-          <span className='flex justify-center items-center'>
-            <img
-              className='h-9 grayscale invert brightness-200 contrast-50 hover:scale-150 transition'
-              alt='Ally'
-              src='/logos/ally.svg'
-            />
-          </span>
-          <span className='flex justify-center items-center'>
-            <img
-              className='h-9 brightness-75 contrast-50 hover:scale-150 transition'
-              alt='Marvel'
-              src='/logos/marvel.svg'
-            />
-          </span>
+          <QuickView
+            className='h-9 grayscale invert brightness-200 contrast-50 hover:scale-150 transition'
+            alt='Ally'
+            slug='ally'
+            src='/logos/ally.svg' />
+          <QuickView
+            className='h-9 brightness-75 contrast-50 hover:scale-150 transition'
+            alt='Marvel'
+            slug='marvel'
+            src='/logos/marvel.svg' />
           <span className='flex justify-center items-center'>
             <img
               className='h-9 grayscale invert brightness-200 contrast-50 hover:scale-150 transition'
@@ -31,20 +30,18 @@ export default function Coding() {
               src='/logos/barefoot.svg'
             />
           </span>
-          <span className='flex justify-center items-center'>
-            <img
-              className='h-12 grayscale invert brightness-125 hover:scale-150 transition'
-              alt='American Electric Power'
-              src='/logos/aep.svg'
-            />
-          </span>
-          <span className='flex justify-center items-center'>
-            <img
+
+          <QuickView
+            className='h-12 grayscale invert brightness-125 hover:scale-150 transition'
+            alt='American Electric Power'
+            slug='aep'
+            src='/logos/aep.svg' />
+          <QuickView
               className='h-9 grayscale brightness-200 contrast-0 hover:scale-150 transition'
               alt='Magna'
+              slug='magna'
               src='/logos/magna.svg'
             />
-          </span>
           <span className='flex justify-center items-center'>
             <img
               className='h-12 grayscale brightness-75 contrast-75 hover:scale-150 transition'
@@ -52,13 +49,13 @@ export default function Coding() {
               src='/logos/pbs-kids.svg'
             />
           </span>
-          <span className='flex justify-center items-center'>
-            <img
-              className='h-12 grayscale invert brightness-150 hover:scale-150 transition'
-              alt='Fiat'
-              src='/logos/Fiat.svg'
-            />
-          </span>
+
+          <QuickView
+            className='h-12 grayscale invert brightness-150 hover:scale-150 transition'
+            alt='Fiat'
+            slug='fiat'
+            src='/logos/Fiat.svg'
+          />
           <span className='flex justify-center items-center'>
             <img
               className='h-7 grayscale brightness-200 contrast-50 hover:scale-150 transition'
@@ -178,13 +175,12 @@ export default function Coding() {
               src='/logos/sun-country.webp'
             />
           </span>
-          <span className='flex justify-center items-center'>
-            <img
-              className='h-12 grayscale invert brightness-200 contrast-75 hover:scale-150 transition'
-              alt='Amway'
-              src='/logos/amway.png'
-            />
-          </span>
+
+          <QuickView
+            className='h-12 grayscale invert brightness-200 contrast-75 hover:scale-150 transition'
+            alt='Amway'
+            slug='amway'
+            src='/logos/amway.png' />
           <span className='flex justify-center items-center'>
             <img
               className='h-12 brightness-125 hover:scale-150 transition'

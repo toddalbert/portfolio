@@ -1,8 +1,8 @@
-import Head from 'next/head';
-import Aos from './components/Aos';
+import Head from 'next/head'
+import Aos from './components/Aos'
 import './globals.css'
-import { albert } from './fonts';
-import 'aos/dist/aos.css';
+import { albert } from './fonts'
+import 'aos/dist/aos.css'
 
 export const metadata = {
   title: 'Todd Albert | Passionate Tech Leader',

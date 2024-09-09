@@ -49,8 +49,24 @@ export const portfolioItems = {
       name: 'FIAT',
       tech: ['Swift', '360', 'iOS', 'AR', 'Photography', 'Mobile'],
       description:
-        'For the launch of the new FIAT Spyder, we created a 360 "Tiny World" photography capture system that allowed users to take a photo of themselves driving the Spyder in a miniature world. The app was a hit with the audience and was a great way to engage with the audience and promote the FIAT brand.',
+        'For the launch of the new FIAT Spyder, we created a 360 "Tiny World" photography capture system that allowed users to take a photo of themselves driving the Spyder in a miniature world. Users would sign up with a brand ambassador who would capture their names, email addresses, and phone numbers and give them a QR code. Once in the car, the guests would scan the QR code so the system could immediately identify them and deliver their 360 photo to them via email or text which would take them to a custom branded microsite. They were able to view the photos on the site. On mobile, the photo would respond to their movement to allow them to view the entire scene via AR. Some guests received a Cardboard VR headset with which they could experience the photo in true 3D. The experience was a hit with the audience and was a great way to engage with and promote the FIAT brand.',
       imageSrc: '/portfolio/fiat.jpg',
       imageAlt: 'Two women sitting in a FIAT Spyder in a "Tiny World".',
+    },
+
+    'accuweather': {
+      name: 'AccuWeather',
+      tech: ['Swift', 'iOS', 'AR', 'Photography', 'Mobile'],
+      description:
+        'We created a secure and branded custom AR app for AccuWeather that allowed users to take a video of themselves reporting the weather. The app captured user data, stored securely, and delivered their videos via text and email links to custom microsites. The experience was a hit and proved to be a memorable and enjoyable way to engage with the AccuWeather brand.',
+      imageSrc: '/portfolio/accuweather.jpg',
+      imageAlt: 'AccuWeather AR app allows users to take a video of themselves reporting the weather.',
+    },
+
+    'barefoot': {
+      name: 'Barefoot Wine',
+      tech: ['Swift', '360', 'iOS', 'Photography', 'Mobile'],
+      description:
+        'Barefoot Wine wanted to create a special 360 photo booth for their annual conference. We created a portable 360-degree panorama of the New York City skyline, branded specifically for the company\'s annual meeting. Groups could step inside, interact with a kiosk in the center and it would capture a 360-degree panorama of the group. The booth was a hit with the attendees and was a great way to engage with the audience and promote the Barefoot brand. The booth created a unique and memorable experience for their employees.',
     },
 }

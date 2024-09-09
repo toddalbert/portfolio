@@ -56,13 +56,12 @@ export default function Coding() {
 
         <div className='grid grid-cols-2 gap-8 text-stone-400 sm:gap-12 md:grid-cols-3 lg:grid-cols-6'>
 
-          <span className='flex justify-center items-center'>
-            <img
-              className='h-9 grayscale brightness-200 contrast-50 hover:scale-150 transition'
-              alt='AccuWeather'
-              src='/logos/AccuWeather.svg'
-            />
-          </span>
+          <QuickView
+            className='h-9 grayscale brightness-200 contrast-50 hover:scale-150 transition'
+            alt='AccuWeather'
+            slug='accuweather'
+            src='/logos/AccuWeather.svg'
+          />
           <QuickView
             className='h-9 grayscale invert brightness-200 contrast-50 hover:scale-150 transition'
             alt='Ally'
@@ -83,13 +82,12 @@ export default function Coding() {
             slug='amway'
             src='/logos/amway.png'
           />
-          <span className='flex justify-center items-center'>
-            <img
-              className='h-9 grayscale invert brightness-200 contrast-50 hover:scale-150 transition'
-              alt='Barefoot Wine'
-              src='/logos/barefoot.svg'
-            />
-          </span>
+          <QuickView
+            className='h-9 grayscale invert brightness-200 contrast-50 hover:scale-150 transition'
+            alt='Barefoot Wine'
+            slug='barefoot'
+            src='/logos/barefoot.svg'
+          />
           <span className='flex justify-center items-center'>
             <img
               className='h-9 brightness-75 hover:scale-150 transition'

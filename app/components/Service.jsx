@@ -8,14 +8,14 @@ export default function Teaching() {
         <div className='grid grid-cols-2 gap-8 text-stone-400 sm:gap-12 md:grid-cols-3 lg:grid-cols-6'>
           <span className='flex justify-center items-center'>
             <img
-              className='h-9 grayscale contrast-50 brightness-125 hover:scale-150 transition'
+              className='h-9 grayscale contrast-50 brightness-125'
               alt='Site Impact'
               src='/logos/site-impact.png'
             />
           </span>
           <span className='flex justify-center items-center'>
             <svg
-              className='h-9 hover:scale-150 transition'
+              className='h-9'
               version='1.1'
               baseProfile='tiny'
               xmlns='http://www.w3.org/2000/svg'
@@ -39,70 +39,70 @@ export default function Teaching() {
           </span>
           <span className='flex justify-center items-center'>
             <img
-              className='h-9 grayscale brightness-200 contrast-50 hover:scale-150 transition'
+              className='h-9 grayscale brightness-200 contrast-50'
               alt='Bowling Green State University'
               src='/logos/bgsu-rev.svg'
             />
           </span>
           <span className='flex justify-center items-center'>
             <img
-              className='h-14 brightness-75 hover:scale-150 transition'
+              className='h-14 brightness-75'
               alt='NASA'
               src='/logos/nasa.png'
             />
           </span>
           <span className='flex justify-center items-center'>
             <img
-              className='h-12 brightness-75 hover:scale-150 transition'
+              className='h-12 brightness-75'
               alt='Boca Code'
               src='/logos/boca-code.svg'
             />
           </span>
           <span className='flex justify-center items-center'>
             <img
-              className='h-9 brightness-75 hover:scale-150 transition'
+              className='h-9 brightness-75'
               alt='Imanyco'
               src='/logos/imanyco.png'
             />
           </span>
           <span className='flex justify-center items-center'>
             <img
-              className='h-12 brightness-75 hover:scale-150 transition'
+              className='h-12 brightness-75'
               alt='Magic City Cup'
               src='/logos/magic-city-cup.png'
             />
           </span>
           <span className='flex justify-center items-center'>
             <img
-              className='h-12 brightness-75 contrast-100 hover:scale-150 transition'
+              className='h-12 brightness-75 contrast-100'
               alt='South Florida Tech Hub'
               src='/logos/techhub.png'
             />
           </span>
           <span className='flex justify-center items-center'>
             <img
-              className='h-12 brightness-75 hover:scale-150 transition'
+              className='h-12 brightness-75'
               alt='FAU Tech Runway'
               src='/logos/techrunway.png'
             />
           </span>
           <span className='flex justify-center items-center'>
             <img
-              className='h-9 brightness-75 hover:scale-150 transition'
+              className='h-9 brightness-75'
               alt='1909'
               src='/logos/1909.png'
             />
           </span>
           <span className='flex justify-center items-center'>
             <img
-              className='h-12 grayscale brightness-125 hover:scale-150 transition'
+              className='h-12 grayscale brightness-125'
               alt='GLIMS'
               src='/logos/glims.png'
             />
           </span>
           <span className='flex justify-center items-center'>
             <img
-              className='h-12 grayscale brightness-75 hover:scale-150 transition'
+              className='h-12 grayscale brightness-75'
               alt='Cryolist'
               src='/logos/cryolist.png'
             />

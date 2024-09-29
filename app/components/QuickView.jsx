@@ -13,7 +13,7 @@ export default function QuickView({ src, alt, className, slug, videoSrc, videoAl
 
   return (
     <>
-      <span onClick={() => setOpen(true)} className='flex justify-center items-center cursor-pointer'>
+      <span onClick={() => setOpen(true)} className='flex justify-center items-center cursor-zoom-in'>
         <img
           className={className}
           alt={alt}

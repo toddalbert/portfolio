@@ -90,42 +90,42 @@ export default function Coding() {
           />
           <span className='flex justify-center items-center'>
             <img
-              className='h-9 brightness-75 hover:scale-150 transition'
+              className='h-9 brightness-75'
               alt='Boca Code'
               src='/logos/boca-code.svg'
             />
           </span>
           <span className='flex justify-center items-center'>
             <img
-              className='h-7 grayscale brightness-200 contrast-50 hover:scale-150 transition'
+              className='h-7 grayscale brightness-200 contrast-50'
               alt='Bowling Green State University'
               src='/logos/bgsu-rev.svg'
             />
           </span>
           <span className='flex justify-center items-center'>
             <img
-              className='h-9 brightness-150 contrast-50 hover:scale-150 transition'
+              className='h-9 brightness-150 contrast-50'
               alt='CIRES'
               src='/logos/cires.png'
             />
           </span>
           <span className='flex justify-center items-center'>
             <img
-              className='h-12 grayscale brightness-200 contrast-50 hover:scale-150 transition'
+              className='h-12 grayscale brightness-200 contrast-50'
               alt='Cornerstone Learning Community'
               src='/logos/clc.png'
             />
           </span>
           <span className='flex justify-center items-center'>
             <img
-              className='h-9 grayscale hover:scale-150 transition'
+              className='h-9 grayscale'
               alt='Curator'
               src='/logos/curator.png'
             />
           </span>
           <span className='flex justify-center items-center'>
             <img
-              className='h-12 grayscale brightness-75 hover:scale-150 transition'
+              className='h-12 grayscale brightness-75'
               alt='Eight O`Clock Coffee'
               src='/logos/eight_o_clock.svg'
             />
@@ -138,56 +138,56 @@ export default function Coding() {
           />
           <span className='flex justify-center items-center'>
             <img
-              className='h-12 brightness-75 hover:scale-150 transition'
+              className='h-12 brightness-75'
               alt='Frenchie Ballers'
               src='/logos/frenchie-ballers.png'
             />
           </span>
           <span className='flex justify-center items-center'>
             <img
-              className='h-12 brightness-125 hover:scale-150 transition'
+              className='h-12 brightness-125'
               alt='George P Johnson'
               src='/logos/GPJ.png'
             />
           </span>
           <span className='flex justify-center items-center'>
             <img
-              className='h-12 brightness-75 hover:scale-150 transition'
+              className='h-12 brightness-75'
               alt='Hemp Temps'
               src='/logos/hemp-temps.png'
             />
           </span>
           <span className='flex justify-center items-center'>
             <img
-              className='h-9 brightness-75 hover:scale-150 transition'
+              className='h-9 brightness-75'
               alt='Imanyco'
               src='/logos/imanyco.png'
             />
           </span>
           <span className='flex justify-center items-center'>
             <img
-              className='h-6 brightness-75 hover:scale-150 transition'
+              className='h-6 brightness-75'
               alt='JetRide'
               src='/logos/jetride.png'
             />
           </span>
           <span className='flex justify-center items-center'>
             <img
-              className='h-12 brightness-75 hover:scale-150 transition'
+              className='h-12 brightness-75'
               alt='Koda'
               src='/logos/koda.png'
             />
           </span>
           <span className='flex justify-center items-center'>
             <img
-              className='h-12 invert opacity-60 hover:scale-150 transition'
+              className='h-12 invert opacity-60'
               alt='Mack Industrial'
               src='/logos/mack-industrial.png'
             />
           </span>
           <span className='flex justify-center items-center'>
             <img
-              className='h-12 brightness-75 contrast-75 hover:scale-150 transition'
+              className='h-12 brightness-75 contrast-75'
               alt='Magic City Cup'
               src='/logos/magic-city-cup.png'
             />
@@ -206,77 +206,77 @@ export default function Coding() {
           />
           <span className='flex justify-center items-center'>
             <img
-              className='h-9 grayscale contrast-75 hover:scale-150 transition'
+              className='h-9 grayscale contrast-75'
               alt='MV Realty'
               src='/logos/mvrealty.png'
             />
           </span>
           <span className='flex justify-center items-center'>
             <img
-              className='h-6 brightness-75 contrast-75 hover:scale-150 transition'
+              className='h-6 brightness-75 contrast-75'
               alt='MyPhoto'
               src='/logos/myphoto.png'
             />
           </span>
           <span className='flex justify-center items-center'>
             <img
-              className='h-14 brightness-75 hover:scale-150 transition'
+              className='h-14 brightness-75'
               alt='NASA'
               src='/logos/nasa.png'
             />
           </span>
           <span className='flex justify-center items-center'>
             <img
-              className='h-9 brightness-75 hover:scale-150 transition'
+              className='h-9 brightness-75'
               alt='Nebular Agency'
               src='/logos/nebular2.png'
             />
           </span>
           <span className='flex justify-center items-center'>
             <img
-              className='h-14 invert contrast-75 hover:scale-150 transition'
+              className='h-14 invert contrast-75'
               alt='Nintendo Switch'
               src='/logos/switch.svg'
             />
           </span>
           <span className='flex justify-center items-center'>
             <img
-              className='h-12 grayscale brightness-75 contrast-75 hover:scale-150 transition'
+              className='h-12 grayscale brightness-75 contrast-75'
               alt='PBS Kids'
               src='/logos/pbs-kids.svg'
             />
           </span>
           <span className='flex justify-center items-center'>
             <img
-              className='h-14 invert brightness-75 hover:scale-150 transition'
+              className='h-14 invert brightness-75'
               alt='Shelby USA'
               src='/logos/shelby.png'
             />
           </span>
           <span className='flex justify-center items-center'>
             <img
-              className='h-9 grayscale contrast-50 brightness-125 hover:scale-150 transition'
+              className='h-9 grayscale contrast-50 brightness-125'
               alt='Site Impact'
               src='/logos/site-impact.png'
             />
           </span>
           <span className='flex justify-center items-center'>
             <img
-              className='h-12 brightness-125 hover:scale-150 transition'
+              className='h-12 brightness-125'
               alt='Sprint'
               src='/logos/Sprint_Corporation_Logo.svg'
             />
           </span>
           <span className='flex justify-center items-center'>
             <img
-              className='h-12 grayscale brightness-125 contrast-50 hover:scale-150 transition'
+              className='h-12 grayscale brightness-125 contrast-50'
               alt='Sun Country Airlines'
               src='/logos/sun-country.webp'
             />
           </span>
           <span className='flex justify-center items-center'>
             <svg
-              className='h-9 hover:scale-150 transition'
+              className='h-9'
               version='1.1'
               baseProfile='tiny'
               xmlns='http://www.w3.org/2000/svg'

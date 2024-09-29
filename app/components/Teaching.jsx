@@ -14,7 +14,7 @@ export default function Teaching() {
         <div className='grid grid-cols-2 gap-8 text-stone-500 sm:gap-12 md:grid-cols-3 lg:grid-cols-6 dark:text-stone-400'>
           <span className='flex justify-center items-center'>
             <svg
-              className='h-9 hover:scale-150 transition'
+              className='h-9'
               version='1.1'
               baseProfile='tiny'
               xmlns='http://www.w3.org/2000/svg'
@@ -38,28 +38,28 @@ export default function Teaching() {
           </span>
           <span className='flex justify-center items-center'>
             <img
-              className='h-9 grayscale brightness-200 contrast-50 hover:scale-150 transition'
+              className='h-9 grayscale brightness-200 contrast-50'
               alt='Bowling Green State University'
               src='/logos/bgsu-rev.svg'
             />
           </span>
           <span className='flex justify-center items-center'>
             <img
-              className='h-14 brightness-75 hover:scale-150 transition'
+              className='h-14 brightness-75'
               alt='NASA'
               src='/logos/nasa.png'
             />
           </span>
           <span className='flex justify-center items-center'>
             <img
-              className='h-12 grayscale brightness-200 contrast-50 hover:scale-150 transition'
+              className='h-12 grayscale brightness-200 contrast-50'
               alt='University of Miami'
               src='/logos/um.png'
             />
           </span>
           <span className='flex justify-center items-center'>
             <img
-              className='h-12 contrast-50 hover:scale-150 transition'
+              className='h-12 contrast-50'
               alt='Tallahassee Community College'
               src='/logos/tcc.png'
             />
@@ -67,91 +67,91 @@ export default function Teaching() {
 
           <span className='flex justify-center items-center'>
             <img
-              className='h-9 grayscale brightness-200 contrast-75 hover:scale-150 transition'
+              className='h-9 grayscale brightness-200 contrast-75'
               alt='The Ohio State University'
               src='/logos/osu.svg'
             />
           </span>
           <span className='flex justify-center items-center'>
             <img
-              className='h-12 grayscale brightness-200 contrast-50 hover:scale-150 transition'
+              className='h-12 grayscale brightness-200 contrast-50'
               alt='Cornerstone Learning Community'
               src='/logos/clc.png'
             />
           </span>
           <span className='flex justify-center items-center'>
             <img
-              className='h-12 brightness-75 hover:scale-150 transition'
+              className='h-12 brightness-75'
               alt='Boca Code'
               src='/logos/boca-code.svg'
             />
           </span>
           <span className='flex justify-center items-center'>
             <img
-              className='h-9 brightness-150 contrast-50 hover:scale-150 transition'
+              className='h-9 brightness-150 contrast-50'
               alt='CIRES'
               src='/logos/cires.png'
             />
           </span>
           <span className='flex justify-center items-center'>
             <img
-              className='h-12 brightness-75 hover:scale-150 transition'
+              className='h-12 brightness-75'
               alt='University of Colorado Boulder'
               src='/logos/cu-boulder.png'
             />
           </span>
           <span className='flex justify-center items-center'>
             <img
-              className='h-14 brightness-75 hover:scale-150 transition'
+              className='h-14 brightness-75'
               alt='Florida State University'
               src='/logos/fsu.png'
             />
           </span>
           <span className='flex justify-center items-center'>
             <img
-              className='h-9 brightness-75 hover:scale-150 transition'
+              className='h-9 brightness-75'
               alt='University of Florida'
               src='/logos/uf.png'
             />
           </span>
           <span className='flex justify-center items-center'>
             <img
-              className='h-12 grayscale brightness-125 hover:scale-150 transition'
+              className='h-12 grayscale brightness-125'
               alt='GLIMS'
               src='/logos/glims.png'
             />
           </span>
           <span className='flex justify-center items-center'>
             <img
-              className='h-12 grayscale brightness-75 hover:scale-150 transition'
+              className='h-12 grayscale brightness-75'
               alt='NOAA'
               src='/logos/noaa.svg'
             />
           </span>
           <span className='flex justify-center items-center'>
             <img
-              className='h-12 grayscale brightness-75 hover:scale-150 transition'
+              className='h-12 grayscale brightness-75'
               alt='NSF'
               src='/logos/nsf.svg'
             />
           </span>
           <span className='flex justify-center items-center'>
             <img
-              className='h-12 brightness-75 hover:scale-150 transition'
+              className='h-12 brightness-75'
               alt='EGU'
               src='/logos/egu.svg'
             />
           </span>
           <span className='flex justify-center items-center'>
             <img
-              className='h-12 brightness-75 hover:scale-150 transition'
+              className='h-12 brightness-75'
               alt='AAG'
               src='/logos/aag.png'
             />
           </span>
           <span className='flex justify-center items-center'>
             <img
-              className='h-12 grayscale brightness-75 hover:scale-150 transition'
+              className='h-12 grayscale brightness-75'
               alt='Cryolist'
               src='/logos/cryolist.png'
             />

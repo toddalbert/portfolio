@@ -6,7 +6,7 @@ export default function Footer() {
           <span className='ml-3 text-xl'>ToddAlbert.com</span>
         </a>
         <p className='text-sm text-stone-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-stone-200 sm:py-2 sm:mt-0 mt-4'>
-          © 2023 Todd Albert
+          © 2024 Todd Albert
         </p>
         <span className='inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start'>
 

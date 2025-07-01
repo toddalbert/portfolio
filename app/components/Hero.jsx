@@ -22,15 +22,21 @@ export default function Hero() {
             Tech Leader
           </h1>
           <p className='mb-8 text-md leading-relaxed text-stone-400'>
-            Todd is a hands-on software engineering leader, systems engineer, and product developer with over
-            30 years of coding experience and 15 years of leadership. He has worked in various
-            roles, including Principal Software Engineer, VP of Engineering, and CTO.
+            Hi, I’m Todd Albert—a code junkie, tech leader, and mentor with over three decades of hands-on software engineering
+            under my belt. I’ve built everything from AI apps for accessibility to AR games for Fortune 500s, leading teams as
+            Principal Engineer, VP, and CTO.
           </p>
           <p className='mb-8 text-md leading-relaxed text-stone-400'>
-            From developing AI apps for the accessibility community to AR apps for Fortune 500
-            companies, Todd has recruited, built, and lead teams, designing and launching projects spanning
-            from web and e-commerce platforms, mobile apps and games, AI, data science and engineering, AR and VR,
-            to web3 and blockchain.
+            If it’s code, I’ve probably shipped it: web, mobile, e-commerce, games, AI, AR/VR, blockchain—you name it. I love
+            turning wild ideas into real products, whether for scrappy startups or industry giants.
+          </p>
+          <p className='mb-8 text-md leading-relaxed text-stone-400'>
+            I’m also a lifelong teacher, curriculum builder, and founder of a coding bootcamp. Mentorship and service run deep
+            in my DNA.
+          </p>
+          <p className='mb-8 text-md leading-relaxed text-stone-400'>
+            Favorite tools lately? Next.js, React Native, Unity, TypeScript, and a dash of Python. Let’s connect—I’m always up
+            for building something new or helping others level up.
           </p>
           <div className='flex justify-center flex-wrap'>
             <a

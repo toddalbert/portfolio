@@ -19,24 +19,21 @@ export default function Hero() {
         <div className='container mt-24 md:mt-8 lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center'>
           <h1 className='title-font sm:text-4xl text-3xl mb-4 font-medium text-stone-200'>
             Todd H. Albert, Ph.D. <br className='hidden lg:inline-block' />
-            Tech Leader
+            Builder · Scientist · Storyteller
           </h1>
           <p className='mb-8 text-md leading-relaxed text-stone-400'>
-            Hi, I’m Todd Albert—a code junkie, tech leader, and mentor with over three decades of hands-on software engineering
-            under my belt. I’ve built everything from AI apps for accessibility to AR games for Fortune 500s, leading teams as
-            Principal Engineer, VP, and CTO.
+            I reverse-engineer things — ice sheets, software, and most recently a family’s lost history. I started as a
+            NASA- and NOAA-funded glaciologist with a Ph.D., chasing data from Greenland to the Peruvian Andes, then spent
+            the next 30 years building software and leading engineering teams as Principal, VP, and CTO.
           </p>
           <p className='mb-8 text-md leading-relaxed text-stone-400'>
-            If it’s code, I’ve probably shipped it: web, mobile, e-commerce, games, AI, AR/VR, blockchain—you name it. I love
-            turning wild ideas into real products, whether for scrappy startups or industry giants.
+            AI, mobile, games, AR/VR, e-commerce, blockchain — if it ships, I’ve probably built it. And because teaching is
+            in my DNA, I founded a coding bootcamp and mentored hundreds of new engineers along the way.
           </p>
           <p className='mb-8 text-md leading-relaxed text-stone-400'>
-            I’m also a lifelong teacher, curriculum builder, and founder of a coding bootcamp. Mentorship and service run deep
-            in my DNA.
-          </p>
-          <p className='mb-8 text-md leading-relaxed text-stone-400'>
-            Favorite tools lately? Next.js, React Native, Unity, TypeScript, and a dash of Python. Let’s connect—I’m always up
-            for building something new or helping others level up.
+            My latest reconstruction is a book: <em>Out of the Fish Tank</em>, the true story of an ancestor who survived
+            captivity, assumed identities, and remade himself in Brooklyn. Whether it’s a product, a team, or a life pieced
+            back together from the records it left behind — I love finding the signal and building from it.
           </p>
           <div className='flex justify-center flex-wrap'>
             <a

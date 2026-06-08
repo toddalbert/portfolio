@@ -141,11 +141,10 @@ export default function BookPage() {
       {/* ===== About the author ===== */}
       <section className='max-w-4xl mx-auto px-6 py-20 md:py-24 grid md:grid-cols-[auto,1fr] gap-10 md:gap-14 items-center'>
         <div className='justify-self-center'>
-          {/* Reusing the existing portfolio headshot; swap for a book-specific photo if desired */}
           <img
-            src='/todd-albert-sm.jpg'
+            src='/todd-headshot.jpg'
             alt='Todd H. Albert'
-            className='w-40 h-40 object-cover rounded-full grayscale border-4 border-[#ded2b8] shadow-lg'
+            className='w-40 h-40 object-cover rounded-full border-4 border-[#ded2b8] shadow-lg'
           />
         </div>
         <div>

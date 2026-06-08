@@ -12,7 +12,7 @@ export default function Hero() {
             data-aos-offset='100'
             className='object-cover object-center rounded z-10'
             alt='Todd Albert'
-            src='/todd-albert-sm.jpg'
+            src='/todd-headshot.jpg'
           />
         </div>
 

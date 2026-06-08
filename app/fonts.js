@@ -1,14 +1,16 @@
-import { Albert_Sans, Barlow, Playfair_Display, Spectral } from 'next/font/google'
+import { Albert_Sans, Barlow, Oswald, Spectral } from 'next/font/google'
 
 // Portfolio (tech) brand
 export const albert = Albert_Sans({ subsets: ['latin'] })
 
 export const barlow = Barlow({ weight: '200', subsets: ['latin'] })
 
-// "Out of the Fish Tank" (literary) brand
-export const playfair = Playfair_Display({
+// "Out of the Fish Tank" (literary) brand — echoes the cover:
+// a heavy, condensed sans for display (the title), a serif for body (the subtitle).
+export const oswald = Oswald({
+  weight: ['400', '500', '600', '700'],
   subsets: ['latin'],
-  variable: '--font-playfair',
+  variable: '--font-oswald',
 })
 
 export const spectral = Spectral({

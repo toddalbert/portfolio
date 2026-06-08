@@ -8,7 +8,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - `npm run build` - Build the application for production
 - `npm run start` - Start production server
 - `npm run lint` - Run Next.js linting
-- `npm run deploy` - Deploy to Firebase hosting
+- `npm run deploy` - Deploy to Firebase hosting (runs `firebase deploy`)
+
+There is no test framework configured in this project; `npm test` does not exist.
+
+Deployment uses Firebase Hosting's Next.js framework backend (`frameworksBackend`, region `us-central1`) against the `toddalbert-com` project (see `firebase.json` / `.firebaserc`). `next.config.js` is empty — the app is **not** a static export; Firebase runs it as a server-rendered Next.js app.
 
 ## Architecture
 
@@ -22,6 +26,13 @@ This is a Next.js 13 portfolio website using the App Router pattern. The site is
   - **portfolioItems.js** - Static data for portfolio projects with tech stacks and descriptions
 - **public/** - Static assets including logos, portfolio images/videos, and resume PDFs
 
+### Client Logos & the QuickView Modal (the key interaction):
+The `Coding` section renders a grid of client logos. There are two kinds of logo entries:
+- **With a case study** - rendered via `<QuickView slug="..." />`. Clicking opens a Headless UI `Dialog` modal that looks up `portfolioItems[slug]` and displays its name, description, tech tags, and image **or** video. The `slug` prop **must** match a key in `portfolioItems.js`, or the modal throws on `product.imageSrc`.
+- **Without a case study** - rendered as a plain `<span><img/></span>` with no click behavior.
+
+`FilterableCoding.jsx` is an alternative, filterable version of the Coding grid (with a `techMapping` that maps each project's tech array to filter categories). It is **not currently wired into `page.js`** — `Coding.jsx` (a hardcoded logo grid) is what renders. Keep this in mind: edits to the live experience go in `Coding.jsx`, not `FilterableCoding.jsx`.
+
 ### Tech Stack:
 - Next.js 13 with App Router
 - React 18
@@ -32,10 +43,12 @@ This is a Next.js 13 portfolio website using the App Router pattern. The site is
 - Firebase hosting for deployment
 
 ### Styling Approach:
-- Uses Tailwind CSS with custom font (Albert) imported via next/font
+- Fonts are loaded in `app/fonts.js` from `next/font/google`: `Albert_Sans` (applied globally on `<body>` in `layout.js`) and `Barlow` (weight 200)
 - Dark theme with stone-800 background
 - Component-based architecture with each section as a separate component
 - Responsive design patterns throughout
+- Scroll animations: `AOS.init()` runs once via the client-only `Aos.jsx` component mounted in `layout.js`; individual sections opt in with `data-aos="..."` attributes (e.g. on the `Coding` `<section>`)
+- Path alias `@/*` maps to the project root (see `jsconfig.json`)
 
 ### Content Management:
 - Portfolio data is stored in **portfolioItems.js** as a static export

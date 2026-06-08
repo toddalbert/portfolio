@@ -5,6 +5,7 @@ import { albert } from './fonts'
 import 'aos/dist/aos.css'
 
 export const metadata = {
+  metadataBase: new URL('https://www.toddalbert.com'),
   title: 'Todd Albert | Passionate Tech Leader',
   description: 'Todd is a Former NASA Research Fellow and Professor with over 30 years of coding experience and 15 years of leadership.',
   openGraph: {

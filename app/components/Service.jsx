@@ -1,4 +1,4 @@
-export default function Teaching() {
+export default function Service() {
   return (
     <section data-aos='fade-up' data-aos-duration='500' data-aos-offset='100'>
       <div className='py-8 lg:py-16 mx-auto max-w-screen-xl px-4'>

@@ -9,6 +9,11 @@ export default function CTA() {
           </h2>
           <div className='flex justify-center flex-wrap'>
             <a
+              href='/book'
+              className='px-6 py-2 mr-4 mb-4 transition uppercase bg-[#8a4b30] border-2 border-[#8a4b30] rounded-lg text-[#e9e0cc] hover:bg-[#221f17] hover:border-[#221f17] text-md'>
+              Out of the Fish Tank →
+            </a>
+            <a
               href='/Albert-Todd-resume-Aug-2025.pdf'
               target='_Blank'
               rel='nofollow noreferrer'

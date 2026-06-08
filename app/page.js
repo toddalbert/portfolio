@@ -11,6 +11,9 @@ import BookTeaser from './components/BookTeaser'
 import Footer from './components/Footer'
 import CTA from './components/CTA'
 
+// Subtle alternating band to give the stacked logo-grid sections some rhythm.
+const band = 'bg-stone-900/40'
+
 export default function Home() {
   return (
     <>
@@ -19,22 +22,22 @@ export default function Home() {
       <div id='top'>
         <Hero />
       </div>
-      <div id='work'>
+      <div id='work' className={band}>
         <Coding />
       </div>
       <Reel />
-      <div id='leadership'>
+      <div id='leadership' className={band}>
         <Entrepreneur />
       </div>
       <Service />
-      <div id='tech'>
+      <div id='tech' className={band}>
         <Tech />
       </div>
       <div id='teaching'>
         <Teaching />
       </div>
       <BookTeaser />
-      <div id='contact'>
+      <div id='contact' className={band}>
         <CTA />
       </div>
       <Footer />

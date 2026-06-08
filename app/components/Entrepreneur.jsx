@@ -2,9 +2,13 @@ export default function Entrepreneur() {
   return (
     <section data-aos="fade-up" data-aos-duration="500" data-aos-offset="100">
       <div className='py-8 lg:py-16 mx-auto max-w-screen-xl px-4'>
-        <h2 className='mb-8 lg:mb-16 text-3xl font-medium tracking-tight leading-tight text-center text-stone-200 md:text-4xl'>
+        <h2 className='mb-4 text-3xl font-medium tracking-tight leading-tight text-center text-stone-200 md:text-4xl'>
           15+ Years of Leadership
         </h2>
+        <p className='my-4 lg:mb-16 w-sm md:w-1/2 mx-auto tracking-tight leading-tight text-center text-stone-400'>
+          As Principal Engineer, VP, and CTO, I’ve built and led engineering teams across startups
+          and established companies — hiring, mentoring, and shipping the products that move the business.
+        </p>
         <div className='grid grid-cols-2 gap-8 text-stone-400 sm:gap-12 md:grid-cols-3 lg:grid-cols-6'>
           <span className='flex justify-center items-center'>
             <img

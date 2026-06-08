@@ -7,8 +7,8 @@ export default function Teaching() {
         </h2>
         <p className='my-4 lg:mb-16 w-sm md:w-1/2 mx-auto tracking-tight leading-tight text-center text-stone-400'>
           From developing a rolling 3-year wheel curriculum for Middle School, growing the numbers
-          of majors in a University program by 20x in on year, developing and teaching a new major
-          at a state University, to founding and running a coding boot camp, teaching is a passion
+          of majors in a University program by 20x in one year, developing and teaching a new major
+          at a state University, to founding and running a coding bootcamp, teaching is a passion
           and talent.
         </p>
         <div className='grid grid-cols-2 gap-8 text-stone-500 sm:gap-12 md:grid-cols-3 lg:grid-cols-6 dark:text-stone-400'>

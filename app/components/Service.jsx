@@ -2,9 +2,13 @@ export default function Service() {
   return (
     <section data-aos='fade-up' data-aos-duration='500' data-aos-offset='100'>
       <div className='py-8 lg:py-16 mx-auto max-w-screen-xl px-4'>
-        <h2 className='mb-8 lg:mb-16 text-3xl font-medium tracking-tight leading-tight text-center text-stone-200 md:text-4xl'>
+        <h2 className='mb-4 text-3xl font-medium tracking-tight leading-tight text-center text-stone-200 md:text-4xl'>
           Dedicated to Service and Mentorship
         </h2>
+        <p className='my-4 lg:mb-16 w-sm md:w-1/2 mx-auto tracking-tight leading-tight text-center text-stone-400'>
+          I give my time to the communities that build builders — judging pitch competitions, advising
+          founders, and supporting the organizations that open doors in tech, research, and education.
+        </p>
         <div className='grid grid-cols-2 gap-8 text-stone-400 sm:gap-12 md:grid-cols-3 lg:grid-cols-6'>
           <span className='flex justify-center items-center'>
             <img

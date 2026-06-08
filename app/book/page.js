@@ -83,11 +83,11 @@ export default function BookPage() {
           {/* TODO(copy): final jacket / synopsis copy */}
           <div className='space-y-6 text-lg leading-relaxed text-[#463d2e]'>
             <p>
-              Chaim Zeidler survived two world wars, a Russian revolution, a Central Asian prison camp, and a death sentenced
-              existence-forced to abandon his name, his faith, and his identity more than once just to stay alive.
+              Chaim Zeidler survived two world wars, a Russian revolution, a Central Asian prison camp, and a death-sentenced
+              existence — forced to abandon his name, his faith, and his identity more than once just to stay alive.
             </p>
             <p>
-              He was presumed dead by his own family, He returned years later.
+              He was presumed dead by his own family. He returned years later.
             </p>
             <p>
               They didn't believe their eyes.

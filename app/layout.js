@@ -6,11 +6,11 @@ import 'aos/dist/aos.css'
 
 export const metadata = {
   metadataBase: new URL('https://www.toddalbert.com'),
-  title: 'Todd Albert | Passionate Tech Leader',
-  description: 'Todd is a Former NASA Research Fellow and Professor with over 30 years of coding experience and 15 years of leadership.',
+  title: 'Todd H. Albert, Ph.D. | Builder · Scientist · Storyteller',
+  description: 'Former NASA research scientist turned software leader (Principal · VP · CTO), coding-bootcamp founder, and author of Out of the Fish Tank.',
   openGraph: {
-    title: 'Todd Albert | Passionate Tech Leader',
-    description: 'Todd is a Former NASA Research Fellow and Professor with over 30 years of coding experience and 15 years of leadership.',
+    title: 'Todd H. Albert, Ph.D. | Builder · Scientist · Storyteller',
+    description: 'Former NASA research scientist turned software leader (Principal · VP · CTO), coding-bootcamp founder, and author of Out of the Fish Tank.',
     url: 'https://www.toddalbert.com/',
     siteName: 'toddalbert.com',
     images: [

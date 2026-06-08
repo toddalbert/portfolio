@@ -23,7 +23,7 @@ export default function Nav() {
           ))}
           <Link
             href='/book'
-            className='px-3 py-1.5 rounded-md border border-blue-500 text-blue-300 hover:bg-blue-500 hover:text-white transition'>
+            className='px-3 py-1.5 rounded-md border border-[#8a4b30] text-[#caa978] hover:bg-[#8a4b30] hover:text-[#e9e0cc] transition'>
             My Book
           </Link>
         </div>

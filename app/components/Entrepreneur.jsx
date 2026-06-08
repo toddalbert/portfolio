@@ -12,6 +12,13 @@ export default function Entrepreneur() {
         <div className='grid grid-cols-2 gap-8 text-stone-400 sm:gap-12 md:grid-cols-3 lg:grid-cols-6'>
           <span className='flex justify-center items-center'>
             <img
+              className='h-8 grayscale invert brightness-200 contrast-50'
+              alt='CYPHER Learning'
+              src='/logos/cypher-learning.svg'
+            />
+          </span>
+          <span className='flex justify-center items-center'>
+            <img
               className='h-9 grayscale contrast-50 brightness-125'
               alt='Site Impact'
               src='/logos/site-impact.png'

@@ -164,29 +164,28 @@ export default function BookPage() {
           </p>
         </div>
       </section>
-
-      {/* ===== Praise (placeholder) ===== */}
-      <section className='border-t border-[#cdbf9f] bg-[#ded2b8]'>
-        <div className='max-w-4xl mx-auto px-6 py-20 md:py-24'>
-          <h2 className={`${oswald.className} uppercase tracking-wide text-3xl md:text-4xl mb-10 text-center`}>Praise</h2>
-          {/* TODO(copy): real blurbs once available */}
-          <div className='grid md:grid-cols-2 gap-10'>
-            <figure className='text-center'>
-              <blockquote className={`${spectral.className} italic text-xl leading-relaxed text-[#221f17]`}>
-                “An advance blurb will live here once the book is out in the world.”
-              </blockquote>
-              <figcaption className='mt-4 uppercase tracking-widest text-xs text-[#8a4b30]'>— Reviewer, Publication</figcaption>
-            </figure>
-            <figure className='text-center'>
-              <blockquote className={`${spectral.className} italic text-xl leading-relaxed text-[#221f17]`}>
-                “A second line of early praise, waiting to be filled in.”
-              </blockquote>
-              <figcaption className='mt-4 uppercase tracking-widest text-xs text-[#8a4b30]'>— Author, Title</figcaption>
-            </figure>
+      {/* ===== Praise ===== */}
+        {/* TODO: update praise section when ready */}
+        {/* <section className='border-t border-[#cdbf9f] bg-[#ded2b8]'>
+          <div className='max-w-4xl mx-auto px-6 py-20 md:py-24'>
+            <h2 className={`${oswald.className} uppercase tracking-wide text-3xl md:text-4xl mb-10 text-center`}>Praise</h2>
+            <div className='grid md:grid-cols-2 gap-10'>
+              <figure className='text-center'>
+                <blockquote className={`${spectral.className} italic text-xl leading-relaxed text-[#221f17]`}>
+                  “An advance blurb will live here once the book is out in the world.”
+                </blockquote>
+                <figcaption className='mt-4 uppercase tracking-widest text-xs text-[#8a4b30]'>— Reviewer, Publication</figcaption>
+              </figure>
+              <figure className='text-center'>
+                <blockquote className={`${spectral.className} italic text-xl leading-relaxed text-[#221f17]`}>
+                  “A second line of early praise, waiting to be filled in.”
+                </blockquote>
+                <figcaption className='mt-4 uppercase tracking-widest text-xs text-[#8a4b30]'>— Author, Title</figcaption>
+              </figure>
+            </div>
           </div>
-        </div>
-      </section>
-
+        </section> */}  
+ 
       {/* ===== Buy ===== */}
       <section id='buy' className='max-w-3xl mx-auto px-6 py-20 md:py-28 text-center'>
         <h2 className={`${oswald.className} uppercase tracking-wide text-3xl md:text-4xl mb-6`}>Get the book</h2>

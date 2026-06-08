@@ -6,7 +6,7 @@ import { spectral } from '../fonts'
 export default function BookBanner() {
   return (
     <Link
-      href='/book'
+      href='/books/out-of-the-fish-tank'
       className='group block bg-[#221f17] text-[#efe7d3] hover:bg-[#8a4b30] transition'>
       <div className='max-w-screen-xl mx-auto px-5 py-2.5 flex items-center justify-center gap-3 text-sm text-center'>
         <span className='uppercase tracking-[0.25em] text-[10px] text-[#b9a06a] group-hover:text-[#efe7d3]'>

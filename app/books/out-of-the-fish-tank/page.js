@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { oswald, spectral } from '../fonts'
+import { oswald, spectral } from '../../fonts'
 
 export const metadata = {
   title: 'Out of the Fish Tank | A novel by Todd H. Albert',
@@ -9,7 +9,7 @@ export const metadata = {
     title: 'Out of the Fish Tank | A novel by Todd H. Albert',
     description:
       'The reconstructed life of Chaim Zeidler — a Galician Jew who survived captivity in the First World War, lived under a series of assumed identities, and remade himself in Brooklyn.',
-    url: 'https://www.toddalbert.com/book',
+    url: 'https://www.toddalbert.com/books/out-of-the-fish-tank',
     siteName: 'toddalbert.com',
     images: [{ url: '/fishtank_cover_sm.png', width: 432, height: 666 }],
     locale: 'en_US',

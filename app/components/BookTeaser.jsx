@@ -3,7 +3,7 @@ import { oswald, spectral } from '../fonts'
 
 // A literary "island" inside the portfolio: previews the book in its own
 // dusty-sepia / olive-black identity (drawn from the cover), then sends
-// readers to the full /book page.
+// readers to the full book page.
 export default function BookTeaser() {
   return (
     <section
@@ -34,7 +34,7 @@ export default function BookTeaser() {
             </p>
             <div className='mt-7'>
               <Link
-                href='/book'
+                href='/books/out-of-the-fish-tank'
                 className='inline-block px-7 py-3 bg-[#8a4b30] text-[#e9e0cc] uppercase tracking-widest text-xs hover:bg-[#221f17] transition'>
                 About the book
               </Link>

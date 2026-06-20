@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* 2026 homepage redesign — warm selection + crisp rendering */
+::selection {
+  background: #d99a45;
+  color: #0e1a22;
+}

@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Aos from './components/Aos'
 import './globals.css'
-import { albert } from './fonts'
+import { albert, spaceGrotesk, newsreader, spaceMono } from './fonts'
 import 'aos/dist/aos.css'
 
 export const metadata = {
@@ -42,7 +42,8 @@ export default function RootLayout({ children }) {
         <meta property="twitter:site" content="@toddalbert"/>
         <meta property="twitter:creator" content="@toddalbert"/>
       </Head>
-      <body className={`bg-stone-800 dark ${albert.className}`}>
+      <body
+        className={`bg-[#0E1A22] dark ${albert.className} ${spaceGrotesk.variable} ${newsreader.variable} ${spaceMono.variable}`}>
         <Aos />
         {children}</body>
     </html>

@@ -37,9 +37,7 @@ export default function BookFeature() {
               Buy the book
             </a>
             <a
-              href='https://toddalbert.com/books/out-of-the-fish-tank'
-              target='_blank'
-              rel='noopener'
+              href='/books/out-of-the-fish-tank'
               className='text-[15px] font-medium text-cream border border-cream/[0.28] px-[24px] py-[13px] rounded-sm transition-colors hover:border-cream/60'>
               Read an excerpt →
             </a>

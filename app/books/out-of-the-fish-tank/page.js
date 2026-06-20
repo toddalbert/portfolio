@@ -165,26 +165,37 @@ export default function BookPage() {
         </div>
       </section>
       {/* ===== Praise ===== */}
-        {/* TODO: update praise section when ready */}
-        {/* <section className='border-t border-[#cdbf9f] bg-[#ded2b8]'>
+        <section className='border-t border-[#cdbf9f] bg-[#ded2b8]'>
           <div className='max-w-4xl mx-auto px-6 py-20 md:py-24'>
             <h2 className={`${oswald.className} uppercase tracking-wide text-3xl md:text-4xl mb-10 text-center`}>Praise</h2>
             <div className='grid md:grid-cols-2 gap-10'>
               <figure className='text-center'>
                 <blockquote className={`${spectral.className} italic text-xl leading-relaxed text-[#221f17]`}>
-                  “An advance blurb will live here once the book is out in the world.”
+                  “I have tears in my eyes and much gratitude for creating these memories.”
                 </blockquote>
-                <figcaption className='mt-4 uppercase tracking-widest text-xs text-[#8a4b30]'>— Reviewer, Publication</figcaption>
+                <figcaption className='mt-4 uppercase tracking-widest text-xs text-[#8a4b30]'>— Rudolf Zeidler</figcaption>
               </figure>
               <figure className='text-center'>
                 <blockquote className={`${spectral.className} italic text-xl leading-relaxed text-[#221f17]`}>
-                  “A second line of early praise, waiting to be filled in.”
+                  “It should be picked up as a movie. It's amazing.”
                 </blockquote>
-                <figcaption className='mt-4 uppercase tracking-widest text-xs text-[#8a4b30]'>— Author, Title</figcaption>
+                <figcaption className='mt-4 uppercase tracking-widest text-xs text-[#8a4b30]'>— Helen Kormick</figcaption>
+              </figure>
+              <figure className='text-center'>
+                <blockquote className={`${spectral.className} italic text-xl leading-relaxed text-[#221f17]`}>
+                  “I read it in one sitting because I could not stop.”
+                </blockquote>
+                <figcaption className='mt-4 uppercase tracking-widest text-xs text-[#8a4b30]'>— Karen Tina Sheskin</figcaption>
+              </figure>
+              <figure className='text-center'>
+                <blockquote className={`${spectral.className} italic text-xl leading-relaxed text-[#221f17]`}>
+                  “Everyone needs to read this. Doesn't matter Jew or Gentile.”
+                </blockquote>
+                <figcaption className='mt-4 uppercase tracking-widest text-xs text-[#8a4b30]'>— Mark Reyes</figcaption>
               </figure>
             </div>
           </div>
-        </section> */}  
+        </section>
  
       {/* ===== Buy ===== */}
       <section id='buy' className='max-w-3xl mx-auto px-6 py-20 md:py-28 text-center'>

@@ -45,19 +45,22 @@ export const outcomes = [
 
 export const talks = [
   {
-    kind: 'KEYNOTE',
-    t: 'Rebuilding engineering organizations without breaking delivery',
-    take: 'Modernize architecture, process, and team — without stalling the roadmap.',
-  },
-  {
-    kind: 'TALK',
-    t: 'Building AI tools customers actually want',
+    kind: 'ESSAY',
+    t: 'Your customers don\'t want your AI assistant',
     take: 'Product judgment for AI: where it earns trust, and where it quietly fails.',
+    link: 'https://impactvelocity.studio/notes/your-customers-dont-want-your-ai-assistant',
   },
   {
     kind: 'ESSAY',
-    t: 'What software leaders can learn from scientific reasoning',
-    take: 'Hypotheses, evidence, and models as an operating system for engineering decisions.',
+    t: 'The least-used but most-powerful debugging tool for engineers',
+    take: 'A high-powered tool that uses binary search to pinpoint the exact commit that introduced the bug.',
+    link: 'https://toddhalbert.medium.com/the-least-used-but-most-powerful-debugging-tool-for-engineers-77aec7cda226',
+  },
+  {
+    kind: 'ESSAY',
+    t: '7 Reasons Why Most Products Fail',
+    take: 'Most products fail because companies overcomplicate their initial vision instead of launching a simple, customer-validated feature built by a well-managed team with clear scope.',
+    link: 'https://toddhalbert.medium.com/7-reasons-why-most-products-fail-ef5ed8c17db8',
   },
 ]
 

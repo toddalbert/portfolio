@@ -13,21 +13,23 @@ export default function Speaking() {
               03 — WRITING &amp; SPEAKING
             </div>
             <h2 className='m-0 font-medium text-[clamp(30px,4.4vw,54px)] leading-[1.04] tracking-[-0.02em]'>
-              Ideas worth <span className='font-newsreader italic font-normal'>inviting.</span>
+              Ideas worth <span className='font-newsreader italic font-normal'>sharing.</span>
             </h2>
           </div>
-          <a
+          {/* <a
             href='#contact'
             className='font-mono text-[12.5px] tracking-[0.06em] text-sand-ink border-b border-accent pb-[3px] whitespace-nowrap'>
             INVITE TODD TO SPEAK →
-          </a>
+          </a> */}
         </div>
 
         <div className='grid grid-cols-[repeat(auto-fit,minmax(280px,1fr))] gap-[clamp(20px,2.4vw,32px)]'>
           {talks.map(t => (
             <a
               key={t.t}
-              href='#contact'
+              href={t.link}
+              target='_blank'
+              rel='noopener'
               data-aos='fade-up'
               className='flex flex-col bg-sand-card border border-black/10 rounded-sm p-[clamp(26px,2.4vw,34px)] min-h-[240px] transition-[transform,background-color,border-color] duration-[250ms] hover:bg-white hover:border-accent hover:-translate-y-[3px]'>
               <span className='font-mono text-[11px] tracking-[0.12em] text-accent mb-[22px]'>{t.kind}</span>

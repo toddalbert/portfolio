@@ -37,8 +37,8 @@ export const outcomes = [
     context: 'FOUNDER · BOCA CODE & ACADEMIA',
     body: 'Founded a coding bootcamp and led academic programs across two decades — designing curricula, growing enrollment, and mentoring thousands of new engineers into the field.',
     metrics: [
-      { n: '1,000s', l: 'engineers taught' },
-      { n: '20×', l: 'program growth' },
+      { n: '100s', l: 'engineers taught' },
+      { n: '6×', l: 'program growth' },
     ],
   },
 ]

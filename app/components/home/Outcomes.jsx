@@ -10,7 +10,7 @@ export default function Outcomes() {
             01 — SELECTED OUTCOMES
           </div>
           <h2 className='m-0 font-medium text-[clamp(30px,4.4vw,54px)] leading-[1.04] tracking-[-0.02em]'>
-            Systems rebuilt, <span className='font-newsreader italic font-normal'>not roles listed.</span>
+            Systems rebuilt
           </h2>
           <p className='mt-[22px] text-[17px] leading-[1.6] text-sand-muted max-w-[580px]'>
             Each of these is a tangled, stalled, or fragile system that needed direction — and the measurable result of

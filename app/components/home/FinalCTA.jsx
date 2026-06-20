@@ -22,7 +22,7 @@ export default function FinalCTA() {
             Connect on LinkedIn
           </a>
           <a
-            href='/Albert-Todd-resume-May-2026.pdf'
+            href='/Albert-Todd-resume-June-2026.pdf'
             target='_blank'
             rel='noopener'
             className='text-[15px] font-medium text-cream border border-cream/[0.28] px-[26px] py-[14px] rounded-sm transition-colors hover:border-cream/60'>

@@ -1,6 +1,6 @@
 // Footer — identity, links, copyright.
 const links = [
-  { href: '/Albert-Todd-resume-May-2026.pdf', label: 'Resume / CV' },
+  { href: '/Albert-Todd-resume-June-2026.pdf', label: 'Resume / CV' },
   { href: 'https://www.linkedin.com/in/toddalbert/', label: 'LinkedIn' },
   { href: 'https://github.com/toddalbert', label: 'GitHub' },
   { href: 'https://scholar.google.dk/citations?user=lYZY0SYAAAAJ&hl=en', label: 'Google Scholar' },

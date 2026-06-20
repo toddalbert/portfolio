@@ -37,7 +37,7 @@ export default function Hero() {
               Start a Conversation
             </a>
             <a
-              href='/Albert-Todd-resume-May-2026.pdf'
+              href='/Todd-H-Albert-Executive-Brief.pdf'
               target='_blank'
               rel='noopener'
               className='text-[15px] font-medium text-cream border border-cream/[0.28] px-[24px] py-[14px] rounded-sm transition-colors hover:border-cream/60 hover:bg-cream/[0.04]'>

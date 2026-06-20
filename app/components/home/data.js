@@ -35,10 +35,10 @@ export const outcomes = [
     idx: '03',
     title: 'Building Builders Through Education',
     context: 'FOUNDER · BOCA CODE & ACADEMIA',
-    body: 'Founded a coding bootcamp and led academic programs across two decades — designing curricula, growing enrollment, and mentoring thousands of new engineers into the field.',
+    body: 'Founded a coding bootcamp and led academic programs across two decades — designing curricula, growing enrollment, and mentoring thousands of students and hundreds of new engineers into the field.',
     metrics: [
       { n: '100s', l: 'engineers taught' },
-      { n: '6×', l: 'program growth' },
+      { n: '10×', l: 'program growth' },
     ],
   },
 ]

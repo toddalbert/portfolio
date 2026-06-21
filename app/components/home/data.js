@@ -25,10 +25,10 @@ export const stats = [
 
 // 01 — Operating at scale: definition-list rows.
 export const scaleRows = [
-  { label: 'Scale', text: '~2M monthly active users on a single multi-tenant platform', faint: '— traffic that doesn’t pause for deploys.' },
+  { label: 'Scale', text: '~2M monthly active users on a single multi-tenant platform', faint: '— traffic that doesn\'t pause for deploys.' },
   { label: 'Customers', text: '700+ enterprises on shared infrastructure — one platform, many tenants.' },
   { label: 'Reliability', text: 'Uptime and performance held steady as both load and the customer base grow.' },
-  { label: 'Team', text: '~30 engineers across 5 countries and time zones, organized to ship as one.' },
+  { label: 'Team', text: '30 engineers across 6 countries and 8 time zones, organized to ship as one.' },
   { label: 'Delivery', text: 'Velocity and stability run as one goal — enforced through review and quality gates, not traded against each other.' },
 ]
 
@@ -48,7 +48,7 @@ export const outcomes = [
     num: '02',
     context: 'ENG LEADERSHIP · SITE IMPACT',
     title: 'Rebuilding Delivery & Infrastructure Under Pressure',
-    body: 'Turned around a cloud-native AdTech platform under deadline pressure — multi-region availability, SRE/DevOps discipline, CI/CD, and observability built into the team’s habits.',
+    body: 'Turned around a cloud-native AdTech platform under deadline pressure — multi-region availability, SRE/DevOps discipline, CI/CD, and observability built into the team\'s habits.',
     metrics: [
       { n: '$4.3M', l: 'turnaround' },
       { n: '$600K/yr', l: 'est. savings' },
@@ -71,7 +71,7 @@ export const leadCards = [
   {
     tag: '→ set',
     title: 'Set the standard',
-    body: 'The teams I lead understand a system’s production behavior before they touch it. I build that discipline into how the org works — ownership, review, and the expectation that you explain a system before you change it.',
+    body: 'The teams I lead understand a system\'s production behavior before they touch it. I build that discipline into how the org works — ownership, review, and the expectation that you explain a system before you change it.',
   },
   {
     tag: '→ aim',
@@ -81,13 +81,13 @@ export const leadCards = [
   {
     tag: '→ own',
     title: 'Own the outcome',
-    body: 'The result is a platform that scales without drama, run by a team that knows why it behaves the way it does. I’m accountable for that result, and I build the people who sustain it.',
+    body: 'The result is a platform that scales without drama, run by a team that knows why it behaves the way it does. I\'m accountable for that result, and I build the people who sustain it.',
   },
 ]
 
 // 04 — Track record: definition-list rows.
 export const trackRows = [
-  { label: 'Scope now', text: 'VP of Engineering leading ~30 across 5 countries — engineering, DevOps, product, integrations.' },
+  { label: 'Scope now', text: 'VP of Engineering leading 30 across 6 countries — engineering, DevOps, product, integrations.' },
   { label: 'Distributed', text: 'One org spread over multiple time zones, run to ship as a single team.' },
   { label: 'Experience', text: '15+ years leading engineering across startups and established companies.' },
   { label: 'Mentorship', text: 'Founded a coding bootcamp and mentored hundreds of engineers into the field.' },
@@ -105,7 +105,7 @@ export const rangeCards = [
   {
     meta: '30 years',
     title: 'Software & engineering leadership',
-    body: 'AI, mobile, games, AR/VR, e-commerce, blockchain — Principal, VP, CTO. If it ships, I’ve led the team that built and scaled it.',
+    body: 'AI, mobile, games, AR/VR, e-commerce, blockchain — Principal, VP, CTO. If it ships, I\'ve led the team that built and scaled it.',
     takeaway: '→ the core of the work',
   },
   {
@@ -127,8 +127,8 @@ export const writingCards = [
   },
   {
     kind: 'Product · in development',
-    title: 'Manager’s Log',
-    body: 'An AI companion for engineering managers — mobile capture, web generation, two-tier privacy architecture. Built from the manager’s chair, not guessed at.',
+    title: 'Manager\'s Log',
+    body: 'An AI companion for engineering managers — mobile capture, web generation, two-tier privacy architecture. Built from the manager\'s chair, not guessed at.',
     cta: 'Follow along ↗',
     href: LINKEDIN_URL,
   },

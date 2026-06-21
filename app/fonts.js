@@ -1,4 +1,4 @@
-import { Albert_Sans, Barlow, Oswald, Spectral, Newsreader, Space_Grotesk, Space_Mono } from 'next/font/google'
+import { Albert_Sans, Barlow, Oswald, Spectral, Newsreader, Space_Grotesk, Space_Mono, Hanken_Grotesk } from 'next/font/google'
 
 // Portfolio (tech) brand
 export const albert = Albert_Sans({ subsets: ['latin'] })
@@ -27,6 +27,15 @@ export const spaceGrotesk = Space_Grotesk({
   weight: ['400', '500', '600', '700'],
   subsets: ['latin'],
   variable: '--font-space-grotesk',
+})
+
+// 2026 warm-editorial redesign — primary site brand (per Todd Albert.dc.html handoff):
+//   Hanken Grotesk (body / UI), Newsreader (serif headings + italic accents),
+//   Space Mono (monospace eyebrows / labels).
+export const hankenGrotesk = Hanken_Grotesk({
+  weight: ['400', '500', '600', '700'],
+  subsets: ['latin'],
+  variable: '--font-hanken',
 })
 
 export const newsreader = Newsreader({

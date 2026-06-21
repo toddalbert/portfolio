@@ -1,28 +1,32 @@
-import Ribbon from './components/home/Ribbon'
+import RevealController from './components/home/RevealController'
 import SiteNav from './components/home/SiteNav'
 import Hero from './components/home/Hero'
-import Logos from './components/home/Logos'
+import OperatingAtScale from './components/home/OperatingAtScale'
 import Outcomes from './components/home/Outcomes'
-import ThroughLine from './components/home/ThroughLine'
-import BookFeature from './components/home/BookFeature'
-import Speaking from './components/home/Speaking'
-import FinalCTA from './components/home/FinalCTA'
+import HowILead from './components/home/HowILead'
+import TrackRecord from './components/home/TrackRecord'
+import Range from './components/home/Range'
+import Writing from './components/home/Writing'
+import Book from './components/home/Book'
 import SiteFooter from './components/home/SiteFooter'
 
-// 2026 homepage redesign — executive authority site with literary depth.
-// Sections in narrative order per the rebrand brief.
+// 2026 warm-editorial homepage — executive-authority site per the
+// Todd Albert.dc.html design handoff. Sections run in narrative order.
 export default function Home() {
   return (
-    <div className='font-grotesk text-cream bg-ink overflow-hidden'>
-      <Ribbon />
+    <div className='font-hanken bg-paper text-umber-body overflow-x-hidden'>
+      <RevealController />
       <SiteNav />
-      <Hero />
-      <Logos />
-      <Outcomes />
-      <ThroughLine />
-      <BookFeature />
-      <Speaking />
-      <FinalCTA />
+      <main>
+        <Hero />
+        <OperatingAtScale />
+        <Outcomes />
+        <HowILead />
+        <TrackRecord />
+        <Range />
+        <Writing />
+        <Book />
+      </main>
       <SiteFooter />
     </div>
   )

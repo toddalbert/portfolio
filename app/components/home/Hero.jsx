@@ -1,82 +1,87 @@
-import { proof, contourPaths, contourOpacity } from './data'
+import { stats, RESUME_URL, LINKEDIN_URL } from './data'
 
-// Hero: topographic backdrop, positioning statement, portrait, and a proof strip.
+// Hero — positioning statement, portrait, and the animated stat band.
 export default function Hero() {
   return (
-    <header id='top' className='relative'>
-      <svg
-        viewBox='0 0 1440 760'
-        preserveAspectRatio='xMidYMid slice'
-        aria-hidden='true'
-        className='absolute inset-0 w-full h-full pointer-events-none'
-        style={{ opacity: contourOpacity }}>
-        {contourPaths.map((d, i) => (
-          <path key={i} d={d} fill='none' stroke='#9FB2BA' strokeWidth='1' />
-        ))}
-      </svg>
-
-      <div className='relative max-w-[1200px] mx-auto px-[clamp(20px,5vw,64px)] pt-[clamp(56px,9vw,118px)] pb-[clamp(44px,6vw,80px)] grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-[clamp(36px,5vw,72px)] items-center'>
-        <div data-aos='fade-up'>
-          <div className='font-mono text-[12.5px] tracking-[0.16em] text-accent mb-[26px]'>
-            ENGINEERING EXECUTIVE · SCIENTIST · AUTHOR
-          </div>
-          <h1 className='m-0 font-medium text-[clamp(46px,7.4vw,104px)] leading-[0.98] tracking-[-0.022em] text-cream-bright'>
-            I rebuild
-            <br />
-            <span className='font-newsreader italic font-normal text-accent'>complex systems.</span>
-          </h1>
-          <p className='max-w-[560px] mt-[30px] text-[clamp(16px,1.5vw,19px)] leading-[1.62] text-slate-1'>
-            Engineering executive, former NASA-funded scientist, educator, and author. I help teams{' '}
-            <span className='text-cream border-b border-accent pb-px'>find the structure inside complexity</span> — then
-            turn it into software, organizations, products, and stories that hold together.
-          </p>
-          <div className='flex flex-wrap gap-[14px] mt-[38px] items-center'>
-            <a
-              href='#contact'
-              className='text-[15px] font-semibold text-ink bg-accent px-[26px] py-[15px] rounded-sm transition-colors hover:bg-accent-hover'>
-              Start a Conversation
-            </a>
-            <a
-              href='/Todd-H-Albert-Executive-Brief.pdf'
-              target='_blank'
-              rel='noopener'
-              className='text-[15px] font-medium text-cream border border-cream/[0.28] px-[24px] py-[14px] rounded-sm transition-colors hover:border-cream/60 hover:bg-cream/[0.04]'>
-              Download Leadership Brief
-            </a>
-            <a href='#book' className='text-[14.5px] text-slate-2 px-1 py-2 transition-colors hover:text-cream'>
-              Read about the book →
-            </a>
-          </div>
-        </div>
-
-        <div data-aos='fade-up' className='justify-self-center'>
-          <div className='relative w-[clamp(260px,30vw,372px)]'>
-            <div className='absolute inset-0 translate-x-[18px] translate-y-[18px] border border-accent rounded-sm opacity-60' />
-            <div className='relative aspect-[4/5] bg-ink-panel rounded-sm overflow-hidden border border-cream/10'>
-              <img
-                src='/todd-headshot.jpg'
-                alt='Portrait of Todd H. Albert'
-                className='w-full h-full object-cover object-[center_22%] block [filter:grayscale(1)_sepia(0.28)_brightness(0.94)_contrast(1.06)]'
-              />
-              <div className='absolute inset-0 bg-accent mix-blend-overlay opacity-[0.16]' />
-              <div className='absolute left-0 right-0 bottom-0 px-[14px] py-[12px] flex justify-between items-center font-mono text-[10.5px] tracking-[0.1em] text-cream bg-gradient-to-t from-ink-deep/[0.85] to-transparent'>
-                <span>TODD H. ALBERT</span>
-                <span className='text-accent'>PH.D.</span>
-              </div>
+    <header id='top' className='pt-[clamp(56px,9vw,104px)] pb-[clamp(40px,6vw,64px)]'>
+      <div className='max-w-shell mx-auto px-[clamp(22px,5vw,56px)]'>
+        <div className='flex flex-wrap gap-[clamp(36px,5vw,60px)] items-center'>
+          {/* Statement */}
+          <div className='flex-1 basis-[460px] min-w-0'>
+            <span className='font-mono text-[12px] tracking-[0.16em] uppercase text-umber-soft'>
+              VP&nbsp;of&nbsp;Engineering&nbsp;·&nbsp;CYPHER&nbsp;Learning
+            </span>
+            <h1 className='font-newsreader font-medium text-[clamp(2.5rem,5.6vw,4.2rem)] leading-[1.04] tracking-[-0.018em] text-umber mt-[20px] mb-0 max-w-[16ch]'>
+              I make big systems <em className='italic text-clay'>bigger</em> and more reliable — without taking them
+              down.
+            </h1>
+            <p className='mt-[26px] text-[1.16rem] leading-[1.6] text-umber-muted max-w-[52ch]'>
+              I lead a team of <b className='text-umber font-semibold'>~30 engineers across five countries</b> on a
+              platform serving <b className='text-umber font-semibold'>~2M monthly active users</b> and{' '}
+              <b className='text-umber font-semibold'>700+ enterprise customers</b> — and I own keeping it fast and steady
+              as it grows.
+            </p>
+            <div className='flex flex-wrap gap-[12px] mt-[30px]'>
+              <a
+                href={RESUME_URL}
+                target='_blank'
+                rel='noopener'
+                className='font-mono text-[13px] tracking-[0.02em] px-[22px] py-[13px] rounded-[3px] no-underline bg-umber text-paper border border-umber transition-colors hover:bg-[#3a3026] hover:border-[#3a3026] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-clay focus-visible:ring-offset-2 focus-visible:ring-offset-paper'>
+                Latest résumé
+              </a>
+              <a
+                href={LINKEDIN_URL}
+                target='_blank'
+                rel='noopener'
+                className='font-mono text-[13px] tracking-[0.02em] px-[22px] py-[13px] rounded-[3px] no-underline bg-paper-card text-umber border border-hair-strong transition-colors hover:border-clay hover:text-clay focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-clay focus-visible:ring-offset-2 focus-visible:ring-offset-paper'>
+                LinkedIn ↗
+              </a>
+              <a
+                href='#outcomes'
+                className='font-mono text-[13px] tracking-[0.02em] px-[22px] py-[13px] rounded-[3px] no-underline bg-paper-card text-umber border border-hair-strong transition-colors hover:border-clay hover:text-clay focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-clay focus-visible:ring-offset-2 focus-visible:ring-offset-paper'>
+                Selected outcomes
+              </a>
             </div>
           </div>
-        </div>
-      </div>
 
-      {/* PROOF STRIP */}
-      <div className='relative border-t border-cream/[0.08] bg-ink-deep/[0.55]'>
+          {/* Portrait */}
+          <figure className='flex-[0_1_330px] m-0 max-w-[330px]'>
+            <div className='border border-hair-strong rounded-[12px] overflow-hidden bg-paper-card shadow-[0_1px_2px_rgba(40,31,23,.05),0_24px_54px_rgba(40,31,23,.13)]'>
+              <div className='relative aspect-[4/5] bg-paper-portrait'>
+                <div
+                  aria-hidden='true'
+                  className='absolute inset-0 flex flex-col items-center justify-center gap-[10px]'>
+                  <div className='font-newsreader text-[3.2rem] text-umber-placeholder'>THA</div>
+                  <div className='font-mono text-[11px] tracking-[0.16em] text-umber-label'>PORTRAIT</div>
+                </div>
+                <img
+                  src='/todd-headshot.jpg'
+                  alt='Todd H. Albert'
+                  className='absolute inset-0 w-full h-full object-cover object-[center_top]'
+                />
+              </div>
+              <figcaption className='flex justify-between gap-2 px-[16px] py-[13px] border-t border-hair font-mono text-[11px] tracking-[0.03em] text-umber-soft'>
+                <span className='text-umber'>Todd H. Albert, Ph.D.</span>
+                <span>Boynton Beach, FL</span>
+              </figcaption>
+            </div>
+          </figure>
+        </div>
+
+        {/* Stat band */}
         <div
-          data-aos='fade-up'
-          className='max-w-[1200px] mx-auto px-[clamp(20px,5vw,64px)] py-[32px] grid grid-cols-[repeat(auto-fit,minmax(170px,1fr))] gap-y-[22px] gap-x-[clamp(22px,3vw,44px)]'>
-          {proof.map((p, i) => (
-            <div key={i} className='flex items-start gap-[12px]'>
-              <span className='flex-none w-[7px] h-[7px] mt-[6px] bg-accent' />
-              <span className='text-[13.5px] leading-[1.42] text-slate-4 font-medium'>{p}</span>
+          id='scale'
+          data-reveal
+          className='mt-[clamp(44px,6vw,68px)] grid grid-cols-[repeat(auto-fit,minmax(190px,1fr))] gap-px bg-hair border border-hair rounded-[12px] overflow-hidden'>
+          {stats.map((s) => (
+            <div key={s.label} className='bg-paper-card px-[24px] py-[26px]'>
+              <div className='font-newsreader font-medium text-[clamp(2rem,3.4vw,2.7rem)] leading-none text-clay'>
+                <span data-count={s.count} data-suffix={s.suffix}>
+                  {s.count}
+                  {s.suffix}
+                </span>
+              </div>
+              <div className='font-mono text-[11px] tracking-[0.1em] uppercase text-umber-soft mt-[12px]'>{s.label}</div>
             </div>
           ))}
         </div>

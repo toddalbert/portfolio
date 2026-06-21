@@ -1,40 +1,45 @@
-// Footer — identity, links, copyright.
-const links = [
-  { href: '/Albert-Todd-resume-June-2026.pdf', label: 'Resume / CV' },
-  { href: 'https://www.linkedin.com/in/toddalbert/', label: 'LinkedIn' },
-  { href: 'https://github.com/toddalbert', label: 'GitHub' },
-  { href: 'https://scholar.google.dk/citations?user=lYZY0SYAAAAJ&hl=en', label: 'Google Scholar' },
-  { href: 'https://a.co/d/050pcESP', label: 'The Book' },
-]
+import { footerLinks } from './data'
 
+// Contact footer — dark, with social/résumé links.
 export default function SiteFooter() {
   return (
-    <footer className='bg-ink-deep text-slate-3 border-t border-cream/[0.08]'>
-      <div className='max-w-[1200px] mx-auto px-[clamp(20px,5vw,64px)] py-[clamp(44px,5vw,64px)] flex flex-wrap gap-[30px] justify-between items-start'>
-        <div>
-          <div className='flex items-baseline gap-[10px] mb-[10px]'>
-            <span className='font-semibold text-[18px] text-cream'>Todd Albert</span>
-            <span className='font-mono text-[11px] text-accent tracking-[0.08em]'>PH.D.</span>
+    <footer
+      id='contact'
+      aria-labelledby='contact-h'
+      className='bg-night text-night-text pt-[clamp(56px,8vw,84px)] pb-[clamp(40px,5vw,56px)]'>
+      <div className='max-w-shell mx-auto px-[clamp(22px,5vw,56px)]'>
+        <div className='flex flex-wrap justify-between gap-[32px] items-end'>
+          <div>
+            <span className='font-mono text-[12px] tracking-[0.16em] uppercase text-night-label'>Contact</span>
+            <h2
+              id='contact-h'
+              className='mt-[14px] mb-0 font-newsreader font-medium text-[clamp(1.7rem,3.2vw,2.4rem)] leading-[1.1] text-night-bright'>
+              Taking a big system further?
+              <br />
+              Let’s talk.
+            </h2>
+            <div className='flex flex-wrap gap-[10px] mt-[22px]'>
+              {footerLinks.map((l) => (
+                <a
+                  key={l.label}
+                  href={l.href}
+                  target='_blank'
+                  rel='noopener'
+                  className='font-mono text-[12.5px] no-underline text-night-muted px-[15px] py-[9px] border border-night-line rounded-[3px] transition-colors hover:border-clay-light hover:text-clay-glow focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-clay-light focus-visible:ring-offset-2 focus-visible:ring-offset-night'>
+                  {l.label}
+                </a>
+              ))}
+            </div>
           </div>
-          <p className='m-0 max-w-[340px] text-[13.5px] leading-[1.6]'>
-            Rebuilding complex systems — software platforms, engineering teams, scientific models, and lost histories.
-          </p>
+          <div className='flex items-center gap-[10px] font-newsreader text-[1.05rem] text-night-muted'>
+            <span aria-hidden='true' className='w-2 h-2 rounded-full bg-clay flex-none motion-safe:animate-thapulse' />
+            toddalbert.com
+          </div>
         </div>
-        <div className='flex flex-wrap gap-x-[34px] gap-y-[26px] text-[14px]'>
-          {links.map(l => (
-            <a
-              key={l.label}
-              href={l.href}
-              target='_blank'
-              rel='noopener'
-              className='text-slate-5 transition-colors hover:text-white'>
-              {l.label}
-            </a>
-          ))}
+        <div className='mt-[44px] pt-[22px] border-t border-night-line flex justify-between flex-wrap gap-[12px] font-mono text-[12px] tracking-[0.03em] text-night-faint'>
+          <span>© 2026 Todd Albert</span>
+          <span>VP of Engineering · leading teams across 5 countries</span>
         </div>
-      </div>
-      <div className='max-w-[1200px] mx-auto px-[clamp(20px,5vw,64px)] pb-[40px] font-mono text-[11.5px] tracking-[0.04em] text-[#5E6B71]'>
-        © 2026 Todd Albert
       </div>
     </footer>
   )

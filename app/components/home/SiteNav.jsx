@@ -1,32 +1,39 @@
-// Sticky primary navigation for the redesigned homepage.
-const links = [
-  { href: '#work', label: 'Work' },
-  { href: '#book', label: 'Book' },
-  { href: '#speaking', label: 'Writing & Speaking' },
-  { href: '#through', label: 'About' },
-]
+import { navLinks, RESUME_URL } from './data'
 
+// Sticky translucent nav — wordmark + section anchors + résumé.
 export default function SiteNav() {
   return (
-    <nav className='sticky top-0 z-50 bg-ink/[0.82] backdrop-blur-md border-b border-cream/[0.08]'>
-      <div className='max-w-[1200px] mx-auto px-[clamp(20px,5vw,64px)] py-4 flex items-center justify-between gap-6'>
-        <a href='#top' className='flex items-baseline gap-[10px]'>
-          <span className='font-semibold text-[18px] tracking-[-0.01em] text-cream'>Todd Albert</span>
-          <span className='font-mono text-[11px] text-accent tracking-[0.08em]'>PH.D.</span>
+    <div className='sticky top-0 z-50 bg-paper/[0.86] backdrop-blur-[10px] border-b border-hair'>
+      <div className='max-w-shell mx-auto px-[clamp(22px,5vw,56px)] h-[60px] flex items-center justify-between gap-6'>
+        <a
+          href='#top'
+          className='flex items-center gap-[10px] no-underline font-newsreader text-[18px] font-medium tracking-[0.01em] text-umber rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-clay focus-visible:ring-offset-2 focus-visible:ring-offset-paper'>
+          <span
+            aria-hidden='true'
+            className='w-2 h-2 rounded-full bg-clay flex-none motion-safe:animate-thapulse'
+          />
+          Todd&nbsp;H.&nbsp;Albert
         </a>
-        <div className='flex items-center gap-[clamp(16px,2.4vw,34px)] text-[14.5px] text-slate-4'>
-          {links.map(l => (
-            <a key={l.href} href={l.href} className='hidden md:inline py-1 transition-colors hover:text-white'>
+        <nav
+          aria-label='Primary'
+          className='hidden sm:flex items-center gap-[22px] font-mono text-[12px] tracking-[0.03em] text-umber-soft'>
+          {navLinks.map((l) => (
+            <a
+              key={l.href}
+              href={l.href}
+              className='no-underline text-inherit transition-colors hover:text-umber rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-clay focus-visible:ring-offset-2 focus-visible:ring-offset-paper'>
               {l.label}
             </a>
           ))}
           <a
-            href='#contact'
-            className='text-[13.5px] font-medium text-ink bg-accent px-[18px] py-[10px] rounded-sm transition-colors hover:bg-accent-hover'>
-            Start a Conversation
+            href={RESUME_URL}
+            target='_blank'
+            rel='noopener'
+            className='no-underline text-clay-ink rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-clay focus-visible:ring-offset-2 focus-visible:ring-offset-paper'>
+            Résumé&nbsp;↗
           </a>
-        </div>
+        </nav>
       </div>
-    </nav>
+    </div>
   )
 }

@@ -1,20 +1,43 @@
-// Content + helpers for the 2026 homepage redesign.
-// Ported from the Claude Design handoff (Todd Albert Homepage.dc.html).
+// Content for the 2026 warm-editorial homepage.
+// Ported verbatim from the design handoff (Todd Albert.dc.html). Prose with
+// inline emphasis lives in the section components; the repeated, structured
+// content (stats, cards, list rows) lives here.
 
-export const proof = [
-  'VP Engineering',
-  'Former NASA Research Fellow',
-  '30+ years building software',
-  '15+ years leading teams',
-  'Author, Out of the Fish Tank',
-  'Educator & bootcamp founder',
+// Newest résumé actually present in /public (spec linked a stale May file).
+export const RESUME_URL = '/Albert-Todd-resume-June-2026.pdf'
+export const LINKEDIN_URL = 'https://www.linkedin.com/in/toddalbert/'
+
+export const navLinks = [
+  { href: '#scale', label: 'Scale' },
+  { href: '#outcomes', label: 'Outcomes' },
+  { href: '#leadership', label: 'Leadership' },
+  { href: '#range', label: 'Range' },
+  { href: '#book', label: 'Book' },
 ]
 
+// Hero stat band (animated counters).
+export const stats = [
+  { count: 2, suffix: 'M', label: 'Monthly active users' },
+  { count: 700, suffix: '+', label: 'Enterprise customers' },
+  { count: 30, suffix: '', label: 'Engineers led' },
+  { count: 5, suffix: '', label: 'Countries & time zones' },
+]
+
+// 01 — Operating at scale: definition-list rows.
+export const scaleRows = [
+  { label: 'Scale', text: '~2M monthly active users on a single multi-tenant platform', faint: '— traffic that doesn’t pause for deploys.' },
+  { label: 'Customers', text: '700+ enterprises on shared infrastructure — one platform, many tenants.' },
+  { label: 'Reliability', text: 'Uptime and performance held steady as both load and the customer base grow.' },
+  { label: 'Team', text: '~30 engineers across 5 countries and time zones, organized to ship as one.' },
+  { label: 'Delivery', text: 'Velocity and stability run as one goal — enforced through review and quality gates, not traded against each other.' },
+]
+
+// 02 — Selected outcomes: dark cards.
 export const outcomes = [
   {
-    idx: '01',
-    title: 'Modernizing a Global Learning Platform',
+    num: '01',
     context: 'VP ENGINEERING · CYPHER LEARNING',
+    title: 'Modernizing a Global Learning Platform',
     body: 'Led a distributed engineering organization through Agile transformation, cloud optimization, and AI-driven automation — keeping delivery steady and reporting impact at board level.',
     metrics: [
       { n: '$4.4M', l: 'budget owned' },
@@ -22,9 +45,9 @@ export const outcomes = [
     ],
   },
   {
-    idx: '02',
+    num: '02',
+    context: 'ENG LEADERSHIP · SITE IMPACT',
     title: 'Rebuilding Delivery & Infrastructure Under Pressure',
-    context: 'ENGINEERING LEADERSHIP · SITE IMPACT',
     body: 'Turned around a cloud-native AdTech platform under deadline pressure — multi-region availability, SRE/DevOps discipline, CI/CD, and observability built into the team’s habits.',
     metrics: [
       { n: '$4.3M', l: 'turnaround' },
@@ -32,9 +55,9 @@ export const outcomes = [
     ],
   },
   {
-    idx: '03',
-    title: 'Building Builders Through Education',
+    num: '03',
     context: 'FOUNDER · BOCA CODE & ACADEMIA',
+    title: 'Building Builders Through Education',
     body: 'Founded a coding bootcamp and led academic programs across two decades — designing curricula, growing enrollment, and mentoring thousands of students and hundreds of new engineers into the field.',
     metrics: [
       { n: '100s', l: 'engineers taught' },
@@ -43,46 +66,79 @@ export const outcomes = [
   },
 ]
 
-export const talks = [
+// 03 — How I lead: principle cards.
+export const leadCards = [
   {
-    kind: 'ESSAY',
-    t: 'Your customers don\'t want your AI assistant',
-    take: 'Product judgment for AI: where it earns trust, and where it quietly fails.',
-    link: 'https://impactvelocity.studio/notes/your-customers-dont-want-your-ai-assistant',
+    tag: '→ set',
+    title: 'Set the standard',
+    body: 'The teams I lead understand a system’s production behavior before they touch it. I build that discipline into how the org works — ownership, review, and the expectation that you explain a system before you change it.',
   },
   {
-    kind: 'ESSAY',
-    t: 'The least-used but most-powerful debugging tool for engineers',
-    take: 'A high-powered tool that uses binary search to pinpoint the exact commit that introduced the bug.',
-    link: 'https://toddhalbert.medium.com/the-least-used-but-most-powerful-debugging-tool-for-engineers-77aec7cda226',
+    tag: '→ aim',
+    title: 'Aim the team at the signal',
+    body: 'I point engineers at what actually moves the business — reliability, latency under load, the growth curve — so effort lands on root causes instead of symptoms.',
   },
   {
-    kind: 'ESSAY',
-    t: '7 Reasons Why Most Products Fail',
-    take: 'Most products fail because companies overcomplicate their initial vision instead of launching a simple, customer-validated feature built by a well-managed team with clear scope.',
-    link: 'https://toddhalbert.medium.com/7-reasons-why-most-products-fail-ef5ed8c17db8',
+    tag: '→ own',
+    title: 'Own the outcome',
+    body: 'The result is a platform that scales without drama, run by a team that knows why it behaves the way it does. I’m accountable for that result, and I build the people who sustain it.',
   },
 ]
 
-// Topographic contour lines for the hero backdrop. Deterministic — generated once
-// at module load so server and client render identical paths (no hydration drift).
-// Mirrors the handoff's buildContours() at the "Moderate" intensity (13 rows).
-export function buildContours(rows = 13) {
-  const paths = []
-  const W = 1440
-  for (let i = 0; i < rows; i++) {
-    const baseY = 24 + i * (740 / rows)
-    const amp = 16 + (i % 4) * 9
-    const phase = i * 0.55
-    let d = 'M -60 ' + baseY.toFixed(1)
-    for (let x = -60; x <= W + 60; x += 26) {
-      const y = baseY + Math.sin(x / 175 + phase) * amp + Math.cos(x / 430 + i * 0.4) * 8
-      d += ' L ' + x + ' ' + y.toFixed(1)
-    }
-    paths.push(d)
-  }
-  return paths
-}
+// 04 — Track record: definition-list rows.
+export const trackRows = [
+  { label: 'Scope now', text: 'VP of Engineering leading ~30 across 5 countries — engineering, DevOps, product, integrations.' },
+  { label: 'Distributed', text: 'One org spread over multiple time zones, run to ship as a single team.' },
+  { label: 'Experience', text: '15+ years leading engineering across startups and established companies.' },
+  { label: 'Mentorship', text: 'Founded a coding bootcamp and mentored hundreds of engineers into the field.' },
+  { label: 'Operating model', text: 'Leveling, review rigor, and process that clears the HR and audit bar.' },
+]
 
-export const contourPaths = buildContours(13)
-export const contourOpacity = 0.085
+// 05 — Range: the three-phase arc.
+export const rangeCards = [
+  {
+    meta: 'Ph.D. · NASA / NOAA',
+    title: 'Research scientist',
+    body: 'NASA- and NOAA-funded glaciology, chasing data from Greenland to the Peruvian Andes — building models of systems too big to see all at once.',
+    takeaway: '→ forensic rigor for incident analysis',
+  },
+  {
+    meta: '30 years',
+    title: 'Software & engineering leadership',
+    body: 'AI, mobile, games, AR/VR, e-commerce, blockchain — Principal, VP, CTO. If it ships, I’ve led the team that built and scaled it.',
+    takeaway: '→ the core of the work',
+  },
+  {
+    meta: 'Author · 2026',
+    title: 'Storyteller',
+    body: 'Wrote a book that turns dense historical research into something a general reader finishes in a weekend.',
+    takeaway: '→ explaining complex systems to non-experts',
+  },
+]
+
+// 06 — Writing & building: link cards.
+export const writingCards = [
+  {
+    kind: 'Essay · Medium',
+    title: 'Nobody Wants Your AI Assistant',
+    body: 'Why proximity to customer data — not the model — is the moat for software companies competing with the labs.',
+    cta: 'Read on Medium ↗',
+    href: 'https://toddhalbert.medium.com/',
+  },
+  {
+    kind: 'Product · in development',
+    title: 'Manager’s Log',
+    body: 'An AI companion for engineering managers — mobile capture, web generation, two-tier privacy architecture. Built from the manager’s chair, not guessed at.',
+    cta: 'Follow along ↗',
+    href: LINKEDIN_URL,
+  },
+]
+
+// Footer contact links.
+export const footerLinks = [
+  { href: LINKEDIN_URL, label: 'LinkedIn' },
+  { href: 'https://github.com/toddalbert', label: 'GitHub' },
+  { href: 'https://toddhalbert.medium.com/', label: 'Medium' },
+  { href: 'https://scholar.google.dk/citations?user=lYZY0SYAAAAJ&hl=en', label: 'Scholar' },
+  { href: RESUME_URL, label: 'Résumé' },
+]

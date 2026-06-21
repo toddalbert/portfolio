@@ -20,7 +20,7 @@ export const stats = [
   { count: 2, suffix: 'M', label: 'Monthly active users' },
   { count: 700, suffix: '+', label: 'Enterprise customers' },
   { count: 30, suffix: '', label: 'Engineers led' },
-  { count: 5, suffix: '', label: 'Countries & time zones' },
+  { count: 6, suffix: '', label: 'Countries' },
 ]
 
 // 01 — Operating at scale: definition-list rows.

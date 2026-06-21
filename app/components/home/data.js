@@ -28,7 +28,7 @@ export const scaleRows = [
   { label: 'Scale', text: '~2M monthly active users on a single multi-tenant platform', faint: '— traffic that doesn\'t pause for deploys.' },
   { label: 'Customers', text: '700+ enterprises on shared infrastructure — one platform, many tenants.' },
   { label: 'Reliability', text: 'Uptime and performance held steady as both load and the customer base grow.' },
-  { label: 'Team', text: '30 engineers across 6 countries and 8 time zones, organized to ship as one.' },
+  { label: 'Team', text: '30 engineers across 6 countries and 9 time zones, organized to ship as one.' },
   { label: 'Delivery', text: 'Velocity and stability run as one goal — enforced through review and quality gates, not traded against each other.' },
 ]
 

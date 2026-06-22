@@ -2,17 +2,18 @@ import './globals.css'
 import { hankenGrotesk, newsreader, spaceMono } from './fonts'
 
 const description =
-  'VP of Engineering leading ~30 engineers across five countries on a platform serving ~2M monthly active users and 700+ enterprise customers. I make big systems bigger and more reliable — without taking them down.'
+  'Two-time founder-CTO leading engineering at scale — ~2M monthly users, 700+ enterprise customers. I own the technology decisions that grow the business, not just keep it running.'
+const title = 'Todd H. Albert, Ph.D. — Founder-CTO & Technology Leader'
 
 export const metadata = {
   metadataBase: new URL('https://www.toddalbert.com'),
-  title: 'Todd H. Albert, Ph.D. | VP of Engineering',
+  title,
   description,
   alternates: {
     canonical: 'https://www.toddalbert.com/',
   },
   openGraph: {
-    title: 'Todd H. Albert, Ph.D. | VP of Engineering',
+    title,
     description,
     url: 'https://www.toddalbert.com/',
     siteName: 'toddalbert.com',
@@ -21,7 +22,7 @@ export const metadata = {
         url: 'https://www.toddalbert.com/toddalbert-og-image.png',
         width: 1200,
         height: 630,
-        alt: 'Todd H. Albert, Ph.D. — VP of Engineering',
+        alt: title,
       },
     ],
     locale: 'en_US',
@@ -29,7 +30,7 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Todd H. Albert, Ph.D. | VP of Engineering',
+    title,
     description,
     images: ['https://www.toddalbert.com/toddalbert-og-image.png'],
     site: '@toddalbert',

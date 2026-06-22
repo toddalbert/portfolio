@@ -7,7 +7,7 @@ export default function Book() {
       <div className='max-w-shell mx-auto px-[clamp(22px,5vw,56px)]'>
         <div className='flex flex-wrap gap-[clamp(32px,5vw,56px)] items-center'>
           <div className='flex-[0_0_210px]'>
-            <div className='relative w-[210px] aspect-[2/3] rounded-[4px] overflow-hidden bg-umber shadow-[0_18px_46px_rgba(40,31,23,.28)]'>
+            <div className='relative w-[210px] aspect-[2/3] rounded-[4px] overflow-hidden bg-umber shadow-[0_18px_46px_rgba(40,31,23,.28)] -rotate-1'>
               <div
                 aria-hidden='true'
                 className='absolute inset-0 flex flex-col items-center justify-center gap-[8px] p-[20px] text-center'>

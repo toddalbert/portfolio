@@ -119,19 +119,19 @@ export const rangeCards = [
 // 06 — Writing & building: link cards.
 export const writingCards = [
   {
-    kind: 'Essay · Medium',
-    title: 'Nobody Wants Your AI Assistant',
+    kind: 'Essay',
+    title: 'Your Customers Don\'t Want Your AI Assistant',
     body: 'Why proximity to customer data — not the model — is the moat for software companies competing with the labs.',
-    cta: 'Read on Medium ↗',
-    href: 'https://toddhalbert.medium.com/',
+    cta: 'Read on Impact Velocity ↗',
+    href: 'https://impactvelocity.studio/notes/your-customers-dont-want-your-ai-assistant',
   },
-  {
-    kind: 'Product · in development',
-    title: 'Manager\'s Log',
-    body: 'An AI companion for engineering managers — mobile capture, web generation, two-tier privacy architecture. Built from the manager\'s chair, not guessed at.',
-    cta: 'Follow along ↗',
-    href: LINKEDIN_URL,
-  },
+  // {
+  //   kind: 'Product · in development',
+  //   title: 'Manager\'s Log',
+  //   body: 'An AI companion for engineering managers — mobile capture, web generation, two-tier privacy architecture. Built from the manager\'s chair, not guessed at.',
+  //   cta: 'Follow along ↗',
+  //   href: LINKEDIN_URL,
+  // },
 ]
 
 // Footer contact links.

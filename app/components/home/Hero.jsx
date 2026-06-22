@@ -9,17 +9,16 @@ export default function Hero() {
           {/* Statement */}
           <div className='flex-1 basis-[460px] min-w-0'>
             <span className='font-mono text-[12px] tracking-[0.16em] uppercase text-umber-soft'>
-              VP&nbsp;of&nbsp;Engineering&nbsp;·&nbsp;CYPHER&nbsp;Learning
+              TWO-TIME FOUNDER-CTO · NOW VP OF ENGINEERING AT CYPHER LEARNING
             </span>
             <h1 className='font-newsreader font-medium text-[clamp(2.5rem,5.6vw,4.2rem)] leading-[1.04] tracking-[-0.018em] text-umber mt-[20px] mb-0 max-w-[16ch]'>
-              I make big systems <em className='italic text-clay'>bigger</em> and more reliable — without taking them
-              down.
+              I own the technology call — and the <em className='italic text-clay'>numbers</em> it moves.
             </h1>
             <p className='mt-[26px] text-[1.16rem] leading-[1.6] text-umber-muted max-w-[52ch]'>
-              I lead a team of <b className='text-umber font-semibold'>~30 engineers across five countries</b> on a
-              platform serving <b className='text-umber font-semibold'>~2M monthly active users</b> and{' '}
-              <b className='text-umber font-semibold'>700+ enterprise customers</b> — and I own keeping it fast and steady
-              as it grows.
+              Two-time founder-CTO with P&L ownership. Today I lead <b className='text-umber font-semibold'>~30 engineers across 6 countries</b>{' '}
+              on a multi-tenant SaaS platform serving <b className='text-umber font-semibold'>~2M monthly active users</b> and{' '}
+              <b className='text-umber font-semibold'>700+ enterprise customers</b>{' '}
+               — and I own the technology decisions that grow the business, not just keep it running.
             </p>
             <div className='flex flex-wrap gap-[12px] mt-[30px]'>
               <a

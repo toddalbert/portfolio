@@ -15,8 +15,7 @@ export default function Outcomes() {
             Proof, not adjectives.
           </h2>
           <p className='mt-[20px] text-[1.1rem] leading-[1.6] text-night-muted max-w-[56ch]'>
-            A few representative results from directing engineering at scale. Each is a system or an organization that
-            came out the other side faster, steadier, or stronger.
+            Technology decisions that moved a number — revenue, margin, reliability, speed — and held up under load.
           </p>
         </div>
 

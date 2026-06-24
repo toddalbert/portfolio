@@ -1,34 +1,52 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# toddalbert.com
 
-## Getting Started
+Personal site for Todd H. Albert — a single-page executive portfolio plus a
+landing page for the book _Out of the Fish Tank_. Built with Next.js (App
+Router), Tailwind CSS, and deployed to Firebase Hosting.
 
-First, run the development server:
+## Getting started
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+| Command | Description |
+| --- | --- |
+| `npm run dev` | Start the dev server on localhost:3000 |
+| `npm run build` | Production build |
+| `npm run start` | Serve the production build |
+| `npm run lint` | Run Next.js linting |
+| `npm run deploy` | Deploy to Firebase Hosting (`firebase deploy`) |
 
-## Learn More
+There is no test framework configured in this project.
 
-To learn more about Next.js, take a look at the following resources:
+## Structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **`app/page.js`** — homepage; composes the section components in narrative order.
+- **`app/components/home/`** — the homepage sections (`Hero`, `OperatingAtScale`,
+  `Outcomes`, `HowILead`, `TrackRecord`, `Range`, `Writing`, `Book`,
+  `SiteNav`, `SiteFooter`) plus `RevealController` (scroll-reveal animations)
+  and `data.js` (all section content: stats, cards, links).
+- **`app/books/out-of-the-fish-tank/page.js`** — standalone book landing page
+  with its own typographic brand and JSON-LD structured data.
+- **`app/layout.js`** — root layout, global metadata, and Open Graph tags.
+- **`app/fonts.js`** — Google fonts via `next/font` (Hanken Grotesk, Newsreader,
+  and Space Mono for the site; Oswald and Spectral for the book page).
+- **`public/`** — static assets (portrait, book cover, résumé PDF, OG image).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Editing content
 
-## Deploy on Vercel
+Most homepage copy and data — stats, leadership cards, track record, writing
+links, nav, and footer — lives in `app/components/home/data.js`. Editing it
+updates the corresponding sections without touching component markup.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Deployed via Firebase Hosting's Next.js framework backend (region
+`us-central1`) against the `toddalbert-com` project (see `firebase.json` /
+`.firebaserc`). The app is server-rendered, not a static export.

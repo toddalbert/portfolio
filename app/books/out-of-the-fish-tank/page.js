@@ -28,7 +28,12 @@ const bookSchema = {
   '@context': 'https://schema.org',
   '@type': 'Book',
   name: 'Out of the Fish Tank',
-  author: { '@type': 'Person', name: 'Todd H. Albert' },
+  author: {
+    '@type': 'Person',
+    name: 'Todd H. Albert',
+    url: 'https://www.toddalbert.com',
+    image: 'https://www.toddalbert.com/todd-headshot.jpg',
+  },
   isbn: '9798199797306',
   bookFormat: 'https://schema.org/Paperback',
   datePublished: '2026-06',
@@ -48,8 +53,6 @@ const bookSchema = {
 // Palette (literary brand — intentionally separate from the stone/blue portfolio):
 //   parchment #e9e0cc · panel #ded2b8 · ink #221f17 · soft ink #4f4636
 //   oxblood #8a4b30 · hairline #cdbf9f
-// TODO(assets): drop the real cover image at public/book/cover.jpg and swap the
-//   placeholder cover below; add author photo at public/book/author.jpg.
 // TODO(copy): replace the placeholder excerpt with a real passage from the manuscript.
 
 export default function BookPage() {

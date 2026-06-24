@@ -1,59 +1,77 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+Guidance for Claude Code (claude.ai/code) when working in this repository.
 
-## Development Commands
+## Commands
 
-- `npm run dev` - Start development server on localhost:3000
-- `npm run build` - Build the application for production
-- `npm run start` - Start production server
-- `npm run lint` - Run Next.js linting
-- `npm run deploy` - Deploy to Firebase hosting (runs `firebase deploy`)
+- `npm run dev` — dev server on localhost:3000
+- `npm run build` — production build
+- `npm run start` — serve the production build
+- `npm run lint` — Next.js lint
+- `npm run deploy` — deploy to Firebase Hosting (`firebase deploy`)
 
-There is no test framework configured in this project; `npm test` does not exist.
+There is no test framework configured; `npm test` does not exist.
 
-Deployment uses Firebase Hosting's Next.js framework backend (`frameworksBackend`, region `us-central1`) against the `toddalbert-com` project (see `firebase.json` / `.firebaserc`). `next.config.js` is empty — the app is **not** a static export; Firebase runs it as a server-rendered Next.js app.
+## Deployment
+
+Firebase Hosting's Next.js framework backend (`frameworksBackend`, region
+`us-central1`) against the `toddalbert-com` project (see `firebase.json` /
+`.firebaserc`). `next.config.js` is empty — this is a **server-rendered** app,
+**not** a static export.
 
 ## Architecture
 
-This is a Next.js 13 portfolio website using the App Router pattern. The site is a single-page application showcasing Todd Albert's professional work and experience.
+Next.js 13 App Router. Two routes:
 
-### Key Structure:
-- **app/page.js** - Main homepage that orchestrates all component sections
-- **app/layout.js** - Root layout with metadata, fonts, and global styling
-- **app/components/** - All React components representing different portfolio sections:
-  - Hero, Coding, Reel, Entrepreneur, Service, Tech, Teaching, CTA, Footer
-  - **portfolioItems.js** - Static data for portfolio projects with tech stacks and descriptions
-- **public/** - Static assets including logos, portfolio images/videos, and resume PDFs
+- **`app/page.js`** — the homepage. A thin orchestrator that renders the
+  `app/components/home/*` sections in narrative order inside a single warm
+  "paper" theme wrapper.
+- **`app/books/out-of-the-fish-tank/page.js`** — a standalone landing page for
+  the book _Out of the Fish Tank_, with its own literary brand (parchment /
+  oxblood palette, Oswald + Spectral) and JSON-LD `Book` structured data.
+  Intentionally separate from the portfolio's visual language.
 
-### Client Logos & the QuickView Modal (the key interaction):
-The `Coding` section renders a grid of client logos. There are two kinds of logo entries:
-- **With a case study** - rendered via `<QuickView slug="..." />`. Clicking opens a Headless UI `Dialog` modal that looks up `portfolioItems[slug]` and displays its name, description, tech tags, and image **or** video. The `slug` prop **must** match a key in `portfolioItems.js`, or the modal throws on `product.imageSrc`.
-- **Without a case study** - rendered as a plain `<span><img/></span>` with no click behavior.
+`app/layout.js` holds global metadata (Open Graph / Twitter cards) and applies
+the font CSS variables to `<body>`.
 
-`FilterableCoding.jsx` is an alternative, filterable version of the Coding grid (with a `techMapping` that maps each project's tech array to filter categories). It is **not currently wired into `page.js`** — `Coding.jsx` (a hardcoded logo grid) is what renders. Keep this in mind: edits to the live experience go in `Coding.jsx`, not `FilterableCoding.jsx`.
+### Homepage sections — `app/components/home/`
 
-### Tech Stack:
-- Next.js 13 with App Router
-- React 18
-- Tailwind CSS for styling
-- AOS (Animate On Scroll) library
-- Headless UI components
-- Hero Icons
-- Firebase hosting for deployment
+`SiteNav`, `Hero`, `OperatingAtScale`, `Outcomes`, `HowILead`, `TrackRecord`,
+`Range`, `Writing`, `Book`, `SiteFooter`, plus `RevealController`. Each section
+is a presentational component; **content lives in `data.js`** (stats, leadership
+cards, track-record rows, writing links, nav links, footer links, résumé /
+LinkedIn URLs). To change copy or links, edit `data.js` — not the markup.
 
-### Styling Approach:
-- Fonts are loaded in `app/fonts.js` from `next/font/google`: `Albert_Sans` (applied globally on `<body>` in `layout.js`) and `Barlow` (weight 200)
-- Dark theme with stone-800 background
-- Component-based architecture with each section as a separate component
-- Responsive design patterns throughout
-- Scroll animations: `AOS.init()` runs once via the client-only `Aos.jsx` component mounted in `layout.js`; individual sections opt in with `data-aos="..."` attributes (e.g. on the `Coding` `<section>`)
-- Path alias `@/*` maps to the project root (see `jsconfig.json`)
+### Scroll animations — `RevealController.jsx`
 
-### Content Management:
-- Portfolio data is stored in **portfolioItems.js** as a static export
-- Each portfolio item includes name, tech stack array, description, and media assets
-- Resume files are versioned in public/ directory
-- Company logos and portfolio media organized in public/logos/ and public/portfolio/
+A single client component mounted on the homepage. It uses an
+`IntersectionObserver` to drive two opt-in behaviors via data attributes:
 
-The site focuses on showcasing technical leadership experience, coding projects, entrepreneurship, teaching, and professional services.
+- `data-reveal` — element fades + rises into view (gets `.is-in` when visible).
+- `data-count` (+ optional `data-suffix`, `data-dec`) — number counts up once.
+
+Server markup renders fully visible; the controller only enhances it, so no-JS
+visitors and crawlers get the complete page. `prefers-reduced-motion` (or a
+`?nomotion` query) shows everything immediately with final counts. The reveal
+CSS (`.reveal-ready`, `.is-in`, `rise` keyframe) lives in `globals.css` /
+`tailwind.config.js`.
+
+## Styling
+
+- **Tailwind CSS** with a custom warm-editorial theme in `tailwind.config.js`:
+  color scales `paper`, `umber`, `clay`, `hair`; `max-w-shell` (1180px content
+  column); font families `font-hanken`, `font-newsreader`, `font-mono`.
+- **Fonts** (`app/fonts.js`, via `next/font/google`): `hankenGrotesk` (body/UI),
+  `newsreader` (serif headings + italic accents), `spaceMono` (mono eyebrows) for
+  the main site; `oswald` + `spectral` for the book page. Fonts are exposed as
+  CSS variables on `<body>` and consumed through the Tailwind family utilities.
+- Heavy use of arbitrary values with `clamp()` for fluid type and spacing.
+- Path alias `@/*` maps to the project root (see `jsconfig.json`).
+
+## Assets
+
+`public/` is intentionally lean — only assets the live site references:
+`todd-headshot.jpg` (portrait), `fishtank_cover_sm.png` (book cover),
+`toddalbert-og-image.png` (social card), `Albert-Todd-resume-June-2026.pdf`.
+App icons (`app/icon.png`, `app/apple-icon.png`, `app/favicon.ico`) are picked
+up automatically by Next's metadata conventions.

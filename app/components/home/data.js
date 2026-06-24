@@ -125,13 +125,13 @@ export const writingCards = [
     cta: 'Read on Impact Velocity ↗',
     href: 'https://impactvelocity.studio/notes/your-customers-dont-want-your-ai-assistant',
   },
-  // {
-  //   kind: 'Product · in development',
-  //   title: 'Manager\'s Log',
-  //   body: 'An AI companion for engineering managers — mobile capture, web generation, two-tier privacy architecture. Built from the manager\'s chair, not guessed at.',
-  //   cta: 'Follow along ↗',
-  //   href: LINKEDIN_URL,
-  // },
+  {
+    kind: 'Keynote',
+    title: 'Building Defensible AI Your Customers Will Love',
+    body: 'I presented a talk to the South Florida CTO Club I am a member of on the traps to avoid, rules to follow, and roadmap and architecture to add defensible and lovable AI to your product.',
+    cta: 'Join the Club ↗',
+    href: 'https://southflcto.org/',
+  },
 ]
 
 // Footer contact links.

@@ -79,7 +79,6 @@ module.exports = {
         },
       },
       fontFamily: {
-        grotesk: ['var(--font-space-grotesk)', 'sans-serif'],
         hanken: ['var(--font-hanken)', 'system-ui', 'sans-serif'],
         newsreader: ['var(--font-newsreader)', 'serif'],
         mono: ['var(--font-space-mono)', 'monospace'],

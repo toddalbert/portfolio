@@ -7,7 +7,7 @@ export default function Hero() {
       <div className='max-w-shell mx-auto px-[clamp(22px,5vw,56px)]'>
         <div className='flex flex-wrap gap-[clamp(36px,5vw,60px)] items-center'>
           {/* Statement */}
-          <div className='flex-1 basis-[460px] min-w-0'>
+          <div className='flex-1 basis-[460px] min-w-0 lg:order-2'>
             <span className='font-mono text-[12px] tracking-[0.16em] uppercase text-umber-soft'>
               TWO-TIME FOUNDER-CTO · NOW VP OF ENGINEERING AT CYPHER LEARNING
             </span>
@@ -44,7 +44,7 @@ export default function Hero() {
           </div>
 
           {/* Portrait */}
-          <figure className='flex-[0_1_330px] m-0 max-w-[330px]'>
+          <figure className='flex-[0_1_330px] m-0 max-w-[330px] lg:order-1'>
             <div className='border border-hair-strong rounded-[12px] overflow-hidden bg-paper-card shadow-[0_1px_2px_rgba(40,31,23,.05),0_24px_54px_rgba(40,31,23,.13)]'>
               <div className='relative aspect-[4/5] bg-paper-portrait'>
                 <div

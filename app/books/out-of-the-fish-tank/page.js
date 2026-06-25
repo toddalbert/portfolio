@@ -3,6 +3,7 @@ import { oswald, spectral } from '../../fonts'
 
 const AMAZON_URL = 'https://a.co/d/050pcESP'
 const AMAZON_SAMPLE_URL = 'https://read.amazon.com/sample/B0H4766WZ9?clientId=share'
+const AUDIBLE_URL = 'https://www.audible.com/pd/B0H6K4SZLT'
 
 export const metadata = {
   title: 'Out of the Fish Tank | Todd H. Albert',
@@ -43,6 +44,31 @@ const bookSchema = {
     'A true story of war, survival, family memory, and a life reconstructed from fragments — the reconstructed life of Chaim Zeidler by Todd H. Albert.',
   url: 'https://www.toddalbert.com/books/out-of-the-fish-tank',
   image: 'https://www.toddalbert.com/fishtank_cover_sm.png',
+  workExample: [
+    {
+      '@type': 'Book',
+      '@id': AMAZON_URL,
+      bookFormat: 'https://schema.org/Paperback',
+      isbn: '9798199797306',
+      inLanguage: 'en',
+      offers: {
+        '@type': 'Offer',
+        availability: 'https://schema.org/InStock',
+        url: AMAZON_URL,
+      },
+    },
+    {
+      '@type': 'Audiobook',
+      '@id': AUDIBLE_URL,
+      inLanguage: 'en',
+      readBy: { '@type': 'Person', name: 'Todd H. Albert' },
+      offers: {
+        '@type': 'Offer',
+        availability: 'https://schema.org/InStock',
+        url: AUDIBLE_URL,
+      },
+    },
+  ],
   offers: {
     '@type': 'Offer',
     availability: 'https://schema.org/InStock',
@@ -103,6 +129,11 @@ export default function BookPage() {
               Buy the Book
             </a>
             <a
+              href={AUDIBLE_URL}
+              className='px-7 py-3 border border-[#221f17] text-[#221f17] uppercase tracking-widest text-xs hover:bg-[#221f17] hover:text-[#e9e0cc] transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#221f17]'>
+              Listen on Audible
+            </a>
+            <a
               href='#excerpt'
               className='px-7 py-3 border border-[#221f17] text-[#221f17] uppercase tracking-widest text-xs hover:bg-[#221f17] hover:text-[#e9e0cc] transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#221f17]'>
               Read an Excerpt
@@ -124,7 +155,7 @@ export default function BookPage() {
               {/* TODO(meta): confirm and add page count once finalized */}
               <div className='flex gap-3'>
                 <dt className='uppercase tracking-widest text-[10px] text-[#8a4b30] w-20 shrink-0 pt-0.5'>Format</dt>
-                <dd className='text-[#463d2e]'>Paperback &amp; Kindle</dd>
+                <dd className='text-[#463d2e]'>Paperback, Kindle &amp; Audiobook</dd>
               </div>
               <div className='flex gap-3'>
                 <dt className='uppercase tracking-widest text-[10px] text-[#8a4b30] w-20 shrink-0 pt-0.5'>Published</dt>
@@ -345,6 +376,11 @@ export default function BookPage() {
                 href={AMAZON_URL}
                 className='px-7 py-3 bg-[#8a4b30] text-[#e9e0cc] uppercase tracking-widest text-xs hover:bg-[#221f17] transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#221f17]'>
                 Buy on Amazon
+              </a>
+              <a
+                href={AUDIBLE_URL}
+                className='px-7 py-3 border border-[#221f17] uppercase tracking-widest text-xs hover:bg-[#221f17] hover:text-[#e9e0cc] transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#221f17]'>
+                Listen on Audible
               </a>
               <a
                 href='#excerpt'

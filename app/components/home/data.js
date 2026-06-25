@@ -40,7 +40,7 @@ export const outcomes = [
     title: 'Modernizing a Global Learning Platform',
     body: 'Led a distributed engineering organization through Agile transformation, cloud optimization, and AI-driven automation — keeping delivery steady and reporting impact at board level.',
     metrics: [
-      { n: '$4.4M', l: 'budget owned' },
+      { n: '$6.3M', l: 'budget owned' },
       { n: '$1.2M/yr', l: 'cost reduced' },
     ],
   },

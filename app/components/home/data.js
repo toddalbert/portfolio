@@ -50,7 +50,7 @@ export const outcomes = [
     title: 'Rebuilding Delivery & Infrastructure Under Pressure',
     body: 'Turned around a cloud-native AdTech platform under deadline pressure — multi-region availability, SRE/DevOps discipline, CI/CD, and observability built into the team\'s habits.',
     metrics: [
-      { n: '$4.3M', l: 'turnaround' },
+      { n: '$6.8M', l: 'turnaround' },
       { n: '$600K/yr', l: 'est. savings' },
     ],
   },
